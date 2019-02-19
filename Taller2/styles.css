@@ -190,7 +190,7 @@ p {
     margin-bottom: 10px;
 }
 
-#batman-title {
+#news-title {
     font-family: IBM Plex Serif;
     font-size: 21px;
 }
@@ -372,7 +372,7 @@ p {
         border-bottom: none;
     }
 
-    #batman-title {
+    #news-title {
         font-family: IBM Plex Serif;
         font-size: 28px;
         font-style: italic;
