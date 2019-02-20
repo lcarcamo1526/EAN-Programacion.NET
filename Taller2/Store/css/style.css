@@ -32,3 +32,15 @@ a {
     background-color: rgba(39,174,96 ,1);
     border-color: rgba(46,204,113 ,1);
 }
+
+partners {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+img parners {
+      max-height: 300px;
+    max-width: 300px;
+}
