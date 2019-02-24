@@ -1,5 +1,7 @@
-var feretro, silleteria, cafeteria, coronas, disposicion = 0, finalPrice = 0;
-var misa = 150000, despedida = 400000;
+var feretro, silleteria, cafeteria, coronas, disposicion = 0,
+    finalPrice = 0;
+var misa = 150000,
+    despedida = 400000;
 
 
 //Enums
@@ -40,7 +42,7 @@ function AssignValues(id) {
  * @return {number}
  */
 function CheckOut(id) {
-    finalPrice = disposicion =0;
+    finalPrice = disposicion = 0;
     if (id !== null && id !== 0) {
         finalPrice = feretro + silleteria + cafeteria + coronas + misa + despedida;
 
@@ -73,10 +75,9 @@ function DrawTables() {
     document.getElementById('Despedida').innerHTML = despedida;
     document.getElementById('Disposicion').innerHTML = disposicion;
     document.getElementById('Subtotal').innerHTML = finalPrice;
-    document.getElementById('Descuento').innerHTML = finalPrice *0.05;
-    document.getElementById('Total').innerHTML = finalPrice *0.95;
+    document.getElementById('Descuento').innerHTML = finalPrice * 0.05;
+    document.getElementById('Total').innerHTML = finalPrice * 0.95;
 
 
 
 }
-

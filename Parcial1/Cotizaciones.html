@@ -15,8 +15,7 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic'
-          rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
 
     <!-- Plugin CSS -->
 
@@ -26,166 +25,164 @@
 
 <body id="page-top">
 
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-    <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="index.html#page-top">FUNERARIA EL BUEN DESCANSO</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="index.html#about">Sobre nosotros</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="index.html#services">Servicios</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="index.html#contact">Contactanos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="Cotizaciones.html">Cotizaciones</a>
-                </li>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-3" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="index.html#page-top">FUNERARIA EL BUEN DESCANSO</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.html#about">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.html#services">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.html#contact">Contactanos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="Cotizaciones.html">Cotizaciones</a>
+                    </li>
 
-            </ul>
-        </div>
-    </div>
-</nav>
-
-
-<header class="cotizacion">
-    <div class="container h-100">
-        <div class="row h-100 align-items-center justify-content-center text-center">
-            <div class="col-lg-10 align-self-end">
-                <h1 class="text-uppercase text-white font-weight-bold">SERVICIOS FUNERARIOS</h1>
-                <hr class="divider my-4">
-            </div>
-            <div class="col-lg-8 align-self-baseline">
-                <p class="text-white-75 font-weight-light mb-5">Encuentra aquí variadas opciones con las que podrá hacer
-                    un sentido homenaje a sus seres queridos, desde su smartphone o computador. </p>
-
-
-                <a class="btn btn-primary btn-xl js-scroll-trigger" href="#contact">MAS INFORMACION</a>
+                </ul>
             </div>
         </div>
-    </div>
-</header>
+    </nav>
 
 
-<section class="page-section" id="contact">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 text-center">
-                <h2 class="mt-0">Cotizaciones</h2>
-                <hr class="divider my-4">
-                <p class="text-muted mb-5">Aqui podra utilizar nuestra tabla de cotizacion para conocer en detalle nuestros servicios</p>
+    <header class="cotizacion">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center justify-content-center text-center">
+                <div class="col-lg-10 align-self-end">
+                    <h1 class="text-uppercase text-white font-weight-bold">SERVICIOS FUNERARIOS</h1>
+                    <hr class="divider my-4">
+                </div>
+                <div class="col-lg-8 align-self-baseline">
+                    <p class="text-white-75 font-weight-light mb-5">Encuentra aquí variadas opciones con las que podrá hacer
+                        un sentido homenaje a sus seres queridos, desde su smartphone o computador. </p>
+
+
+                    <a class="btn btn-primary btn-xl js-scroll-trigger" href="#contact">MAS INFORMACION</a>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-4 ml-auto text-left">
-                <select id="ServiceLevel">
-                    <option value="0">Seleccione su servicio</option>
-                    <option value="1" onclick="AssignValues(1)">Bronce</option>
-                    <option value="2" onclick="AssignValues(2)">Plata</option>
-                    <option value="3" onclick="AssignValues(3)">Oro</option>
-                </select>
+    </header>
 
-                <br><br><br>
-                <h4>Por favor seleccione la disposicion</h4>
-                <br>
-                <form>
-                    <input type="radio" value="1" name="opcion" onclick="CheckOut(1)"> Inhumacion<br>
-                    <input type="radio" value="2" name="opcion" onclick="CheckOut(2)"> Cremacion<br>
-                    <input type="radio" value="3" name="opcion" onclick="CheckOut(3)"> Embalsamiento
-                </form>
 
-                <br>
-                <button class="btn btn-primary btn-xl js-scroll-trigger" onclick="DrawTables()">CALCULAR COTIZACION
-                </button>
+    <section class="page-section" id="contact">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="mt-0">Cotizaciones</h2>
+                    <hr class="divider my-4">
+                    <p class="text-muted mb-5">Aqui podra utilizar nuestra tabla de cotizacion para conocer en detalle nuestros servicios</p>
+                </div>
             </div>
-            <div class="col-lg-* mr-auto text-left">
-                <h2>Tabla de cotizacion</h2>
-                <table class="table table-condensed">
-                    <thead>
-                    <tr>
-                        <th><b>RECURSO</b></th>
-                        <th><b>COSTO </b></th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td>Feretro</td>
-                        <td id="Feretro">0</td>
-                    </tr>
-                    <tr>
-                        <td>Silleteria</td>
-                        <td id="Silleteria">0</td>
-                    </tr>
-                    <tr>
-                        <td>Cafeteria</td>
-                        <td id="Cafeteria">0</td>
-                    </tr>
-                    <tr>
-                        <td>Coronas</td>
-                        <td id="Coronas">0</td>
-                    </tr>
+            <div class="row">
+                <div class="col-lg-4 ml-auto text-left">
+                    <select id="ServiceLevel">
+                        <option value="0">Seleccione su servicio</option>
+                        <option value="1" onclick="AssignValues(1)">Bronce</option>
+                        <option value="2" onclick="AssignValues(2)">Plata</option>
+                        <option value="3" onclick="AssignValues(3)">Oro</option>
+                    </select>
 
-                    <tr>
-                        <td>Servicio MISA</td>
-                        <td id="Misa">0</td>
-                    </tr>
-                    <tr>
-                        <td>Discurso Despedida</td>
-                        <td id="Despedida">0</td>
+                    <br><br><br>
+                    <h4>Por favor seleccione la disposicion</h4>
+                    <br>
+                    <form>
+                        <input type="radio" value="1" name="opcion" onclick="CheckOut(1)"> Inhumacion<br>
+                        <input type="radio" value="2" name="opcion" onclick="CheckOut(2)"> Cremacion<br>
+                        <input type="radio" value="3" name="opcion" onclick="CheckOut(3)"> Embalsamiento
+                    </form>
 
-                    </tr>
-                    <tr>
-                        <td>Servicio de Disposicion</td>
-                        <td id="Disposicion">0</td>
+                    <br>
+                    <button class="btn btn-primary btn-xl js-scroll-trigger" onclick="DrawTables()">CALCULAR COTIZACION
+                    </button>
+                </div>
+                <div class="col-lg-* mr-auto text-left">
+                    <h2>Tabla de cotizacion</h2>
+                    <table class="table table-condensed">
+                        <thead>
+                            <tr>
+                                <th><b>RECURSO</b></th>
+                                <th><b>COSTO </b></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Feretro</td>
+                                <td id="Feretro">0</td>
+                            </tr>
+                            <tr>
+                                <td>Silleteria</td>
+                                <td id="Silleteria">0</td>
+                            </tr>
+                            <tr>
+                                <td>Cafeteria</td>
+                                <td id="Cafeteria">0</td>
+                            </tr>
+                            <tr>
+                                <td>Coronas</td>
+                                <td id="Coronas">0</td>
+                            </tr>
 
-                    </tr>
-                    <tr>
-                        <td><b>SUBTOTAL</b></td>
-                        <td id="Subtotal"><b>0</b></td>
+                            <tr>
+                                <td>Servicio MISA</td>
+                                <td id="Misa">0</td>
+                            </tr>
+                            <tr>
+                                <td>Discurso Despedida</td>
+                                <td id="Despedida">0</td>
 
-                    </tr>
-                    <tr>
-                        <td><b>DESCUENTO</b></td>
-                        <td id="Descuento"><b>0</b></td>
+                            </tr>
+                            <tr>
+                                <td>Servicio de Disposicion</td>
+                                <td id="Disposicion">0</td>
 
-                    </tr>
-                    <tr>
-                        <td><b>TOTAL</b></td>
-                        <td id="Total"><b>0</b></td>
+                            </tr>
+                            <tr>
+                                <td><b>SUBTOTAL</b></td>
+                                <td id="Subtotal"><b>0</b></td>
 
-                    </tr>
-                    </tbody>
-                </table>
+                            </tr>
+                            <tr>
+                                <td><b>DESCUENTO</b></td>
+                                <td id="Descuento"><b>0</b></td>
+
+                            </tr>
+                            <tr>
+                                <td><b>TOTAL</b></td>
+                                <td id="Total"><b>0</b></td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
-    </div>
-</section>
-
-<!-- Footer -->
-<footer class="bg-light py-3">
-    <section class="page-section bg-dark text-white">
-        <div class="container text-center">
-            <img src="img/logo-horizontal.png">
-
-        </div>
-
     </section>
-</footer>
+
+    <!-- Footer -->
+    <footer class="bg-light py-3">
+        <section class="page-section bg-dark text-white">
+            <div class="container text-center">
+                <img src="img/logo-horizontal.png">
+
+            </div>
+
+        </section>
+    </footer>
 
 
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-<script src="JS/script.js"></script>
-<script src="JS/creative.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="JS/script.js"></script>
+
 
 
 </body>
