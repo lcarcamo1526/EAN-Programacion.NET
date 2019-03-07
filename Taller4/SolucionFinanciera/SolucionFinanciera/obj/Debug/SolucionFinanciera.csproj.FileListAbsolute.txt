@@ -1,0 +1,7 @@
+c:\users\sala\source\repos\SolucionFinanciera\SolucionFinanciera\bin\Debug\SolucionFinanciera.exe.config
+c:\users\sala\source\repos\SolucionFinanciera\SolucionFinanciera\bin\Debug\SolucionFinanciera.exe
+c:\users\sala\source\repos\SolucionFinanciera\SolucionFinanciera\bin\Debug\SolucionFinanciera.pdb
+c:\users\sala\source\repos\SolucionFinanciera\SolucionFinanciera\obj\Debug\SolucionFinanciera.csprojAssemblyReference.cache
+c:\users\sala\source\repos\SolucionFinanciera\SolucionFinanciera\obj\Debug\SolucionFinanciera.csproj.CoreCompileInputs.cache
+c:\users\sala\source\repos\SolucionFinanciera\SolucionFinanciera\obj\Debug\SolucionFinanciera.exe
+c:\users\sala\source\repos\SolucionFinanciera\SolucionFinanciera\obj\Debug\SolucionFinanciera.pdb

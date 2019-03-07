@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e7982e9f-ca4c-4f67-a65b-98cf14112096" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SolucionFinanciera/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SolucionFinanciera/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SolucionFinanciera/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SolucionFinanciera/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Parcial1 Luis Carcamo.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Taller3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/Exercise3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/css/scrolling-nav.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/jquery-easing/jquery.easing.compatibility.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/jquery-easing/jquery.easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/jquery-easing/jquery.easing.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/jquery/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/jquery/jquery.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/jquery/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/jquery/jquery.slim.min.map" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SolucionFinanciera/LogicaCalculadora.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <marker date="1552002944294" expanded="true" signature="44:1651" ph="{...}" />
+                <marker date="1552002944294" expanded="true" signature="50:222" ph="/* ... */" />
+                <marker date="1552002944294" expanded="true" signature="258:1649" ph="{...}" />
+                <marker date="1552002944294" expanded="true" signature="406:1098" ph="{...}" />
+                <marker date="1552002944294" expanded="true" signature="512:974" ph="{...}" />
+                <marker date="1552002944294" expanded="true" signature="974:1056" ph="{...}" />
+                <marker date="1552002944294" expanded="true" signature="1108:1383" ph="/* ... */" />
+                <marker date="1552002944294" expanded="true" signature="1430:1643" ph="{...}" />
+                <marker date="1552002944294" expanded="true" signature="1538:1605" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SolucionFinanciera/ObjetoFinanciero.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-214">
+              <folding>
+                <marker date="1552002939341" expanded="true" signature="30:988" ph="{...}" />
+                <marker date="1552002939341" expanded="true" signature="36:193" ph="/* ... */" />
+                <marker date="1552002939341" expanded="true" signature="228:980" ph="{...}" />
+                <marker date="1552002939341" expanded="true" signature="413:498" ph="{...}" />
+                <marker date="1552002939341" expanded="true" signature="528:599" ph="{...}" />
+                <marker date="1552002939341" expanded="true" signature="704:715" ph="{...}" />
+                <marker date="1552002939341" expanded="true" signature="819:974" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SolucionFinanciera/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <marker date="1552002934844" expanded="true" signature="46:3393" ph="{...}" />
+                <marker date="1552002934844" expanded="true" signature="66:3390" ph="{...}" />
+                <marker date="1552002934844" expanded="true" signature="176:344" ph="/* ... */" />
+                <marker date="1552002934844" expanded="true" signature="396:847" ph="{...}" />
+                <marker date="1552002934844" expanded="true" signature="856:1024" ph="/* ... */" />
+                <marker date="1552002934844" expanded="true" signature="1078:1182" ph="{...}" />
+                <marker date="1552002934844" expanded="true" signature="1233:1323" ph="{...}" />
+                <marker date="1552002934844" expanded="true" signature="1333:1628" ph="/* Método principal integrador de los objetos de la solución ... */" />
+                <marker date="1552002934844" expanded="true" signature="1669:3375" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/SolucionFinanciera/LogicaCalculadora.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SolucionFinanciera/ObjetoFinanciero.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SolucionFinanciera/Program.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/SolucionFinanciera/Program.cs" />
+        <option value="$PROJECT_DIR$/SolucionFinanciera/ObjetoFinanciero.cs" />
+        <option value="$PROJECT_DIR$/SolucionFinanciera/LogicaCalculadora.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="9" />
+    <option name="y" value="44" />
+    <option name="width" value="1348" />
+    <option name="height" value="690" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="SolucionFinanciera" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="SolucionFinanciera" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="SolucionFinanciera" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SolucionFinanciera.sln" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/SolucionFinanciera/bin/Debug/SolucionFinanciera.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SolucionFinanciera/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/SolucionFinanciera/SolucionFinanciera.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.6.1" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7982e9f-ca4c-4f67-a65b-98cf14112096" name="Default Changelist" comment="" />
+      <created>1552002580777</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552002580777</updated>
+      <workItem from="1552002581946" duration="80000" />
+      <workItem from="1552002683753" duration="338000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="418000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="9" y="44" width="672" height="690" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.5289389" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Build" weight="0.32978722" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49922958" weight="0.32978722" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5007704" side_tool="true" weight="0.32978722" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SolucionFinanciera/LogicaCalculadora.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <marker date="1552002944294" expanded="true" signature="44:1651" ph="{...}" />
+            <marker date="1552002944294" expanded="true" signature="50:222" ph="/* ... */" />
+            <marker date="1552002944294" expanded="true" signature="258:1649" ph="{...}" />
+            <marker date="1552002944294" expanded="true" signature="406:1098" ph="{...}" />
+            <marker date="1552002944294" expanded="true" signature="512:974" ph="{...}" />
+            <marker date="1552002944294" expanded="true" signature="974:1056" ph="{...}" />
+            <marker date="1552002944294" expanded="true" signature="1108:1383" ph="/* ... */" />
+            <marker date="1552002944294" expanded="true" signature="1430:1643" ph="{...}" />
+            <marker date="1552002944294" expanded="true" signature="1538:1605" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SolucionFinanciera/ObjetoFinanciero.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-214">
+          <folding>
+            <marker date="1552002939341" expanded="true" signature="30:988" ph="{...}" />
+            <marker date="1552002939341" expanded="true" signature="36:193" ph="/* ... */" />
+            <marker date="1552002939341" expanded="true" signature="228:980" ph="{...}" />
+            <marker date="1552002939341" expanded="true" signature="413:498" ph="{...}" />
+            <marker date="1552002939341" expanded="true" signature="528:599" ph="{...}" />
+            <marker date="1552002939341" expanded="true" signature="704:715" ph="{...}" />
+            <marker date="1552002939341" expanded="true" signature="819:974" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SolucionFinanciera/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <marker date="1552002934844" expanded="true" signature="46:3393" ph="{...}" />
+            <marker date="1552002934844" expanded="true" signature="66:3390" ph="{...}" />
+            <marker date="1552002934844" expanded="true" signature="176:344" ph="/* ... */" />
+            <marker date="1552002934844" expanded="true" signature="396:847" ph="{...}" />
+            <marker date="1552002934844" expanded="true" signature="856:1024" ph="/* ... */" />
+            <marker date="1552002934844" expanded="true" signature="1078:1182" ph="{...}" />
+            <marker date="1552002934844" expanded="true" signature="1233:1323" ph="{...}" />
+            <marker date="1552002934844" expanded="true" signature="1333:1628" ph="/* Método principal integrador de los objetos de la solución ... */" />
+            <marker date="1552002934844" expanded="true" signature="1669:3375" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
