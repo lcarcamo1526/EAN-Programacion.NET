@@ -41,7 +41,7 @@ namespace SolucionFinanciera {
         //Método principal integrador de los objetos de la solución
         static void Main(string[] args) {
             Console.ForegroundColor = ConsoleColor.White;
-            Console.BackgroundColor = ConsoleColor.DarkYellow;
+            //Console.BackgroundColor = ConsoleColor.DarkYellow;
 
             double interesValorSaldo = 0.0;
             double interesCompuesto = 0.0;

@@ -1,0 +1,11 @@
+/home/condor/Documents/EAN-Programacion.NET/Taller5/Taller5/bin/Debug/netcoreapp2.2/Taller5.deps.json
+/home/condor/Documents/EAN-Programacion.NET/Taller5/Taller5/bin/Debug/netcoreapp2.2/Taller5.runtimeconfig.json
+/home/condor/Documents/EAN-Programacion.NET/Taller5/Taller5/bin/Debug/netcoreapp2.2/Taller5.runtimeconfig.dev.json
+/home/condor/Documents/EAN-Programacion.NET/Taller5/Taller5/bin/Debug/netcoreapp2.2/Taller5.dll
+/home/condor/Documents/EAN-Programacion.NET/Taller5/Taller5/bin/Debug/netcoreapp2.2/Taller5.pdb
+/home/condor/Documents/EAN-Programacion.NET/Taller5/Taller5/obj/Debug/netcoreapp2.2/Taller5.csprojAssemblyReference.cache
+/home/condor/Documents/EAN-Programacion.NET/Taller5/Taller5/obj/Debug/netcoreapp2.2/Taller5.csproj.CoreCompileInputs.cache
+/home/condor/Documents/EAN-Programacion.NET/Taller5/Taller5/obj/Debug/netcoreapp2.2/Taller5.AssemblyInfoInputs.cache
+/home/condor/Documents/EAN-Programacion.NET/Taller5/Taller5/obj/Debug/netcoreapp2.2/Taller5.AssemblyInfo.cs
+/home/condor/Documents/EAN-Programacion.NET/Taller5/Taller5/obj/Debug/netcoreapp2.2/Taller5.dll
+/home/condor/Documents/EAN-Programacion.NET/Taller5/Taller5/obj/Debug/netcoreapp2.2/Taller5.pdb

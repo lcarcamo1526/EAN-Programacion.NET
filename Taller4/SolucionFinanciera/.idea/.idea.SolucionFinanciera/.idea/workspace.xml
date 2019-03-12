@@ -2,35 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7982e9f-ca4c-4f67-a65b-98cf14112096" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SolucionFinanciera/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SolucionFinanciera/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SolucionFinanciera/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SolucionFinanciera/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Parcial1 Luis Carcamo.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Taller3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Taller3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/Exercise3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/css/scrolling-nav.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/jquery-easing/jquery.easing.compatibility.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/jquery-easing/jquery.easing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/jquery-easing/jquery.easing.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/jquery/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/jquery/jquery.slim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/jquery/jquery.slim.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Taller3/startbootstrap-scrolling-nav-gh-pages/vendor/jquery/jquery.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SolucionFinanciera/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SolucionFinanciera/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SolucionFinanciera/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SolucionFinanciera/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SolucionFinanciera/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SolucionFinanciera/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SolucionFinanciera/bin/Debug/SolucionFinanciera.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SolucionFinanciera/bin/Debug/SolucionFinanciera.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SolucionFinanciera/bin/Debug/SolucionFinanciera.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SolucionFinanciera/bin/Debug/SolucionFinanciera.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SolucionFinanciera/obj/Debug/SolucionFinanciera.csproj.FilesWrittenAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SolucionFinanciera/obj/Debug/SolucionFinanciera.csproj.FilesWrittenAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SolucionFinanciera/obj/Debug/SolucionFinanciera.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SolucionFinanciera/obj/Debug/SolucionFinanciera.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SolucionFinanciera/obj/Debug/SolucionFinanciera.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SolucionFinanciera/obj/Debug/SolucionFinanciera.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller5/SolucionFinanciera/.idea/.idea.SolucionFinanciera/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller5/SolucionFinanciera/.idea/.idea.SolucionFinanciera/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller5/SolucionFinanciera/.idea/.idea.SolucionFinanciera/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller5/SolucionFinanciera/.idea/.idea.SolucionFinanciera/.idea/vcs.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +23,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SolucionFinanciera/LogicaCalculadora.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -63,7 +47,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SolucionFinanciera/ObjetoFinanciero.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-214">
+            <state>
               <folding>
                 <marker date="1552002939341" expanded="true" signature="30:988" ph="{...}" />
                 <marker date="1552002939341" expanded="true" signature="36:193" ph="/* ... */" />
@@ -80,18 +64,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SolucionFinanciera/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="-666">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
               <folding>
-                <marker date="1552002934844" expanded="true" signature="46:3393" ph="{...}" />
-                <marker date="1552002934844" expanded="true" signature="66:3390" ph="{...}" />
-                <marker date="1552002934844" expanded="true" signature="176:344" ph="/* ... */" />
-                <marker date="1552002934844" expanded="true" signature="396:847" ph="{...}" />
-                <marker date="1552002934844" expanded="true" signature="856:1024" ph="/* ... */" />
-                <marker date="1552002934844" expanded="true" signature="1078:1182" ph="{...}" />
-                <marker date="1552002934844" expanded="true" signature="1233:1323" ph="{...}" />
-                <marker date="1552002934844" expanded="true" signature="1333:1628" ph="/* Método principal integrador de los objetos de la solución ... */" />
-                <marker date="1552002934844" expanded="true" signature="1669:3375" ph="{...}" />
+                <marker date="1552003414637" expanded="true" signature="46:3395" ph="{...}" />
+                <marker date="1552003414637" expanded="true" signature="66:3392" ph="{...}" />
+                <marker date="1552003414637" expanded="true" signature="176:344" ph="/* ... */" />
+                <marker date="1552003414637" expanded="true" signature="396:847" ph="{...}" />
+                <marker date="1552003414637" expanded="true" signature="856:1024" ph="/* ... */" />
+                <marker date="1552003414637" expanded="true" signature="1078:1182" ph="{...}" />
+                <marker date="1552003414637" expanded="true" signature="1233:1323" ph="{...}" />
+                <marker date="1552003414637" expanded="true" signature="1333:1628" ph="/* Método principal integrador de los objetos de la solución ... */" />
+                <marker date="1552003414637" expanded="true" signature="1669:3377" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -104,15 +88,15 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/SolucionFinanciera/LogicaCalculadora.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SolucionFinanciera/ObjetoFinanciero.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SolucionFinanciera/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SolucionFinanciera/ObjetoFinanciero.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SolucionFinanciera/Program.cs" />
         <option value="$PROJECT_DIR$/SolucionFinanciera/ObjetoFinanciero.cs" />
         <option value="$PROJECT_DIR$/SolucionFinanciera/LogicaCalculadora.cs" />
+        <option value="$PROJECT_DIR$/SolucionFinanciera/Program.cs" />
       </list>
     </option>
   </component>
@@ -201,11 +185,12 @@
       <updated>1552002580777</updated>
       <workItem from="1552002581946" duration="80000" />
       <workItem from="1552002683753" duration="338000" />
+      <workItem from="1552003163427" duration="1009000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="418000" />
+    <option name="totallyTimeSpent" value="1427000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -217,14 +202,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="9" y="44" width="672" height="690" extended-state="0" />
+    <frame x="9" y="44" width="1348" height="690" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.5289389" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22650231" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Build" weight="0.32978722" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
@@ -239,6 +224,7 @@
       <window_info anchor="bottom" id="Unit Tests" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49922958" weight="0.32978722" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5007704" side_tool="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.32978722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -283,7 +269,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SolucionFinanciera/ObjetoFinanciero.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-214">
+        <state>
           <folding>
             <marker date="1552002939341" expanded="true" signature="30:988" ph="{...}" />
             <marker date="1552002939341" expanded="true" signature="36:193" ph="/* ... */" />
@@ -298,18 +284,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SolucionFinanciera/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="-666">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
           <folding>
-            <marker date="1552002934844" expanded="true" signature="46:3393" ph="{...}" />
-            <marker date="1552002934844" expanded="true" signature="66:3390" ph="{...}" />
-            <marker date="1552002934844" expanded="true" signature="176:344" ph="/* ... */" />
-            <marker date="1552002934844" expanded="true" signature="396:847" ph="{...}" />
-            <marker date="1552002934844" expanded="true" signature="856:1024" ph="/* ... */" />
-            <marker date="1552002934844" expanded="true" signature="1078:1182" ph="{...}" />
-            <marker date="1552002934844" expanded="true" signature="1233:1323" ph="{...}" />
-            <marker date="1552002934844" expanded="true" signature="1333:1628" ph="/* Método principal integrador de los objetos de la solución ... */" />
-            <marker date="1552002934844" expanded="true" signature="1669:3375" ph="{...}" />
+            <marker date="1552003414637" expanded="true" signature="46:3395" ph="{...}" />
+            <marker date="1552003414637" expanded="true" signature="66:3392" ph="{...}" />
+            <marker date="1552003414637" expanded="true" signature="176:344" ph="/* ... */" />
+            <marker date="1552003414637" expanded="true" signature="396:847" ph="{...}" />
+            <marker date="1552003414637" expanded="true" signature="856:1024" ph="/* ... */" />
+            <marker date="1552003414637" expanded="true" signature="1078:1182" ph="{...}" />
+            <marker date="1552003414637" expanded="true" signature="1233:1323" ph="{...}" />
+            <marker date="1552003414637" expanded="true" signature="1333:1628" ph="/* Método principal integrador de los objetos de la solución ... */" />
+            <marker date="1552003414637" expanded="true" signature="1669:3377" ph="{...}" />
           </folding>
         </state>
       </provider>

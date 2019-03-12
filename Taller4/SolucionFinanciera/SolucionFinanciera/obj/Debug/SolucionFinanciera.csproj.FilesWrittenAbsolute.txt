@@ -4,3 +4,9 @@
 /home/condor/Documents/EAN-Programacion.NET/Taller5/SolucionFinanciera/SolucionFinanciera/bin/Debug/SolucionFinanciera.exe
 /home/condor/Documents/EAN-Programacion.NET/Taller5/SolucionFinanciera/SolucionFinanciera/obj/Debug/SolucionFinanciera.exe
 /home/condor/Documents/EAN-Programacion.NET/Taller5/SolucionFinanciera/SolucionFinanciera/obj/Debug/SolucionFinanciera.pdb
+/home/condor/Documents/EAN-Programacion.NET/Taller4/SolucionFinanciera/SolucionFinanciera/obj/Debug/.NETFramework,Version=v4.6.1.AssemblyAttribute.cs
+/home/condor/Documents/EAN-Programacion.NET/Taller4/SolucionFinanciera/SolucionFinanciera/bin/Debug/SolucionFinanciera.exe.config
+/home/condor/Documents/EAN-Programacion.NET/Taller4/SolucionFinanciera/SolucionFinanciera/bin/Debug/SolucionFinanciera.pdb
+/home/condor/Documents/EAN-Programacion.NET/Taller4/SolucionFinanciera/SolucionFinanciera/bin/Debug/SolucionFinanciera.exe
+/home/condor/Documents/EAN-Programacion.NET/Taller4/SolucionFinanciera/SolucionFinanciera/obj/Debug/SolucionFinanciera.exe
+/home/condor/Documents/EAN-Programacion.NET/Taller4/SolucionFinanciera/SolucionFinanciera/obj/Debug/SolucionFinanciera.pdb
