@@ -52,7 +52,7 @@ namespace Taller5 {
 
                 Console.Clear();
                 var salary = _hourSalary * _monthsHours;
-                var taxes = _risk + 0.15f * salary;
+                var taxes = _risk + _pension + 0.15f * salary;
                 Console.WriteLine("Ok" + " Mr " + _name + " here is your brute wage:  \n" + salary);
                 Console.WriteLine("Taxes : " + taxes);
                 Console.WriteLine("And, this  is your net wage:  \n" + (salary - taxes));

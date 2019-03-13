@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/.Rider2018.3/system/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.Rider2018.3/system/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_Taller5.-381437423.00" t="ExcludeRecursive" />
-    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+    <e p="C:\Users\User\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\User\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Taller5.-620994443.00" t="ExcludeRecursive" />
+    <e p="C:\Users\User\Desktop\EAN-Programacion.NET\Taller5\Taller5" t="IncludeRecursive">
       <e p="AgeManager.cs" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
       <e p="Exercises.cs" t="Include" />
       <e p="IncomeManager.cs" t="Include" />
-      <e p="Taller5.csproj" t="IncludeRecursive" />
-      <e p="bin" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
           <e p="netcoreapp2.2" t="Include">
@@ -17,6 +16,7 @@
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />
+      <e p="Taller5.csproj" t="IncludeRecursive" />
     </e>
   </component>
 </project>

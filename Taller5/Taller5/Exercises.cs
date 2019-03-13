@@ -13,7 +13,7 @@ namespace Taller5 {
                                   "#0 for Exit \n "
                 );
 
-                var exercise = Int32.Parse(Console.ReadLine());
+                var exercise = int.Parse(Console.ReadLine());
                 if (exercise == 1) {
                     IncomeManager income = new IncomeManager();
                     income.CheckIncome();
