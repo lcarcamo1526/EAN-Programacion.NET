@@ -1,0 +1,11 @@
+/home/condor/Documents/EAN-Programacion.NET/Taller6/Taller6/obj/Debug/netcoreapp2.2/Taller6.csprojAssemblyReference.cache
+/home/condor/Documents/EAN-Programacion.NET/Taller6/Taller6/obj/Debug/netcoreapp2.2/Taller6.csproj.CoreCompileInputs.cache
+/home/condor/Documents/EAN-Programacion.NET/Taller6/Taller6/obj/Debug/netcoreapp2.2/Taller6.AssemblyInfoInputs.cache
+/home/condor/Documents/EAN-Programacion.NET/Taller6/Taller6/obj/Debug/netcoreapp2.2/Taller6.AssemblyInfo.cs
+/home/condor/Documents/EAN-Programacion.NET/Taller6/Taller6/bin/Debug/netcoreapp2.2/Taller6.deps.json
+/home/condor/Documents/EAN-Programacion.NET/Taller6/Taller6/bin/Debug/netcoreapp2.2/Taller6.runtimeconfig.json
+/home/condor/Documents/EAN-Programacion.NET/Taller6/Taller6/bin/Debug/netcoreapp2.2/Taller6.runtimeconfig.dev.json
+/home/condor/Documents/EAN-Programacion.NET/Taller6/Taller6/bin/Debug/netcoreapp2.2/Taller6.dll
+/home/condor/Documents/EAN-Programacion.NET/Taller6/Taller6/bin/Debug/netcoreapp2.2/Taller6.pdb
+/home/condor/Documents/EAN-Programacion.NET/Taller6/Taller6/obj/Debug/netcoreapp2.2/Taller6.dll
+/home/condor/Documents/EAN-Programacion.NET/Taller6/Taller6/obj/Debug/netcoreapp2.2/Taller6.pdb
