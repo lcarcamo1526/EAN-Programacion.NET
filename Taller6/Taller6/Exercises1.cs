@@ -6,6 +6,8 @@ namespace Taller6 {
         private string a, b, c;
 
         public void Ex1() {
+            Console.Clear();
+            Console.WriteLine("-----------------------------------");
             Console.WriteLine("Please enter the first value ");
             a = Console.ReadLine();
             Console.WriteLine("Please enter the second value ");
