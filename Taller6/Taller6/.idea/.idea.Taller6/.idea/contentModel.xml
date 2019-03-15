@@ -4,6 +4,7 @@
     <e p="$USER_HOME$/.Rider2018.3/system/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/.Rider2018.3/system/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_Taller6.2106075411.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Excercise2.cs" t="Include" />
       <e p="Exercises1.cs" t="Include" />
       <e p="Program.cs" t="Include" />
       <e p="Taller6.csproj" t="IncludeRecursive" />

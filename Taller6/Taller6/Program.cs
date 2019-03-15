@@ -19,6 +19,12 @@ namespace Taller6 {
                     ex1.Ex1();
                 }
 
+                else if (exercise == 2) {
+                    Excercise2 ex2 = new Excercise2();
+                    ex2.Ex2();
+                }
+
+
                 else if (exercise == 0) {
                     _answer = true;
                 }
