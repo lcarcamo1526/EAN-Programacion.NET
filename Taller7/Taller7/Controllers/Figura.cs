@@ -22,18 +22,12 @@ public class Figura {
     }
 
 
-    /// <summary>
-    /// Constructor
-    /// </summary>
-    /// <param name="nombre">Name</param>
-    /// <param name="color">Color</param>
-    /// <param name="tipo">Type</param>
-    /// <param name="area">Area</param>
-    /// <param name="perimetro">perimetro</param>
-    public Figura(string nombre, string color, string tipo) {
+    public Figura(string nombre = null, string color = null, string tipo = null, double area = 0,
+        double perimetro = 0) {
         _nombre = nombre ?? throw new ArgumentNullException(nameof(nombre));
         _color = color ?? throw new ArgumentNullException(nameof(color));
         _tipo = tipo ?? throw new ArgumentNullException(nameof(tipo));
+       
     }
 }
 }
