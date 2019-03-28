@@ -46,7 +46,7 @@ public class Rectangulo : Figura {
         nombre, color, tipo) {
         _ancho = ancho;
         _largo = largo;
-        tipo = "Rectangulos";
+        
     }
 }
 }

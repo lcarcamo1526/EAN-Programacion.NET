@@ -3,7 +3,6 @@ using System;
 namespace Taller7.Controllers {
 public class Cuadrado : Figura {
     public double Lado { get; private set; }
-    
 
 
     /// <inheritdoc />
@@ -38,10 +37,9 @@ public class Cuadrado : Figura {
     }
 
 
-    public Cuadrado(double lado, string nombre = null, string color = null, string tipo = null) : base(nombre, color, tipo) {
-        
+    public Cuadrado(double lado, string nombre = null, string color = null, string tipo = null) : base(nombre, color,
+        tipo) {
         Lado = lado;
-        
     }
 }
 }

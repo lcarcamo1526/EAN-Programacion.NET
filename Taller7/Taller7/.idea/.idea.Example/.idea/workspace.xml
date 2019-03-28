@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20c06fa6-38aa-415f-9877-5c3bfd36f063" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Controllers/Circulo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Circulo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Example/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/Cuadrado.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Cuadrado.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/Figura.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Figura.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/Rectangulo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Rectangulo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/Taller7.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/Taller7.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/Taller7.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/Taller7.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Taller7.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Taller7.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Taller7.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Taller7.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,14 +22,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+            <state relative-caret-position="146">
+              <caret line="72" column="62" selection-start-line="72" selection-start-column="62" selection-end-line="72" selection-end-column="62" />
               <folding>
-                <marker date="1553760510736" expanded="true" signature="6:40" ph="..." />
-                <marker date="1553760510736" expanded="true" signature="60:1888" ph="{...}" />
-                <marker date="1553760510736" expanded="true" signature="76:1886" ph="{...}" />
-                <marker date="1553760510736" expanded="true" signature="193:1884" ph="{...}" />
-                <marker date="1553760510736" expanded="true" signature="692:1842" ph="{...}" />
+                <marker date="1553783849316" expanded="false" signature="6:40" ph="..." />
+                <marker date="1553783849316" expanded="true" signature="60:4864" ph="{...}" />
+                <marker date="1553783849316" expanded="true" signature="76:4862" ph="{...}" />
+                <marker date="1553783849316" expanded="true" signature="295:4860" ph="{...}" />
+                <marker date="1553783849316" expanded="true" signature="795:1945" ph="{...}" />
+                <marker date="1553783849316" expanded="true" signature="1983:3388" ph="{...}" />
+                <marker date="1553783849316" expanded="true" signature="3427:4818" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -35,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controllers/Figura.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
+            <state relative-caret-position="72">
               <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
               <folding>
                 <marker date="1553759756070" expanded="true" signature="45:741" ph="{...}" />
@@ -52,21 +57,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controllers/Rectangulo.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+            <state relative-caret-position="74">
+              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
               <folding>
-                <marker date="1553759432153" expanded="true" signature="45:1324" ph="{...}" />
-                <marker date="1553759432153" expanded="true" signature="80:1322" ph="{...}" />
-                <marker date="1553759432153" expanded="true" signature="210:217" ph="{...}" />
-                <marker date="1553759432153" expanded="true" signature="224:327" ph="/// Obtiene el area del rectangulo ... " />
-                <marker date="1553759432153" expanded="true" signature="369:408" ph="{...}" />
-                <marker date="1553759432153" expanded="true" signature="414:527" ph="/// Obtiene el perimetro del rectangulo ... " />
-                <marker date="1553759432153" expanded="true" signature="574:625" ph="{...}" />
-                <marker date="1553759432153" expanded="true" signature="632:743" ph="/// Obtiene la diagonal del rectangulo ... " />
-                <marker date="1553759432153" expanded="true" signature="780:858" ph="{...}" />
-                <marker date="1553759432153" expanded="true" signature="864:1000" ph="/// Determina si es cuadrado ... " />
-                <marker date="1553759432153" expanded="true" signature="1042:1082" ph="{...}" />
-                <marker date="1553759432153" expanded="true" signature="1235:1320" ph="{...}" />
+                <marker date="1553782898433" expanded="true" signature="45:1303" ph="{...}" />
+                <marker date="1553782898433" expanded="true" signature="80:1301" ph="{...}" />
+                <marker date="1553782898433" expanded="true" signature="210:217" ph="{...}" />
+                <marker date="1553782898433" expanded="true" signature="224:327" ph="/// Obtiene el area del rectangulo ... " />
+                <marker date="1553782898433" expanded="true" signature="369:408" ph="{...}" />
+                <marker date="1553782898433" expanded="true" signature="414:527" ph="/// Obtiene el perimetro del rectangulo ... " />
+                <marker date="1553782898433" expanded="true" signature="574:625" ph="{...}" />
+                <marker date="1553782898433" expanded="true" signature="632:743" ph="/// Obtiene la diagonal del rectangulo ... " />
+                <marker date="1553782898433" expanded="true" signature="780:858" ph="{...}" />
+                <marker date="1553782898433" expanded="true" signature="864:1000" ph="/// Determina si es cuadrado ... " />
+                <marker date="1553782898433" expanded="true" signature="1042:1082" ph="{...}" />
+                <marker date="1553782898433" expanded="true" signature="1235:1299" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -75,18 +80,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controllers/Circulo.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
+            <state relative-caret-position="92">
               <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
               <folding>
                 <marker date="1553759457010" expanded="true" signature="45:1049" ph="{...}" />
                 <marker date="1553759457010" expanded="true" signature="77:1047" ph="{...}" />
-                <marker date="1553759457010" expanded="true" signature="112:213" ph="///  ... " />
+                <marker date="1553759457010" expanded="true" signature="112:213" ph="/// Obtiene el perimetro del circulo ... " />
                 <marker date="1553759457010" expanded="true" signature="260:304" ph="{...}" />
-                <marker date="1553759457010" expanded="true" signature="311:408" ph="///  ... " />
+                <marker date="1553759457010" expanded="true" signature="311:408" ph="/// Obtiene el area de la figura ... " />
                 <marker date="1553759457010" expanded="true" signature="450:503" ph="{...}" />
-                <marker date="1553759457010" expanded="true" signature="509:603" ph="///  ... " />
+                <marker date="1553759457010" expanded="true" signature="509:603" ph="/// Obtiene la circunferencia ... " />
                 <marker date="1553759457010" expanded="true" signature="646:697" ph="{...}" />
-                <marker date="1553759457010" expanded="true" signature="703:791" ph="///  ... " />
+                <marker date="1553759457010" expanded="true" signature="703:791" ph="/// Obtiene el diametro ... " />
                 <marker date="1553759457010" expanded="true" signature="828:862" ph="{...}" />
                 <marker date="1553759457010" expanded="true" signature="988:1045" ph="{...}" />
               </folding>
@@ -97,18 +102,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controllers/Cuadrado.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-383">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="92">
+              <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
               <folding>
-                <marker date="1553760402340" expanded="true" signature="45:1082" ph="{...}" />
-                <marker date="1553760402340" expanded="true" signature="78:1080" ph="{...}" />
-                <marker date="1553760402340" expanded="true" signature="136:434" ph="/// Simple Constructor ... " />
-                <marker date="1553760402340" expanded="true" signature="476:517" ph="{...}" />
-                <marker date="1553760402340" expanded="true" signature="523:617" ph="/// Return perimetro ... " />
-                <marker date="1553760402340" expanded="true" signature="664:696" ph="{...}" />
-                <marker date="1553760402340" expanded="true" signature="702:794" ph="/// Return diagonal ... " />
-                <marker date="1553760402340" expanded="true" signature="831:905" ph="{...}" />
-                <marker date="1553760402340" expanded="true" signature="1032:1078" ph="{...}" />
+                <marker date="1553782946610" expanded="true" signature="45:1067" ph="{...}" />
+                <marker date="1553782946610" expanded="true" signature="78:1065" ph="{...}" />
+                <marker date="1553782946610" expanded="true" signature="131:429" ph="/// Simple Constructor ... " />
+                <marker date="1553782946610" expanded="true" signature="471:512" ph="{...}" />
+                <marker date="1553782946610" expanded="true" signature="518:612" ph="/// Return perimetro ... " />
+                <marker date="1553782946610" expanded="true" signature="659:691" ph="{...}" />
+                <marker date="1553782946610" expanded="true" signature="697:789" ph="/// Return diagonal ... " />
+                <marker date="1553782946610" expanded="true" signature="826:900" ph="{...}" />
+                <marker date="1553782946610" expanded="true" signature="1035:1063" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -131,9 +136,9 @@
       <list>
         <option value="$PROJECT_DIR$/Cuadrado.cs" />
         <option value="$PROJECT_DIR$/Figura.cs" />
-        <option value="$PROJECT_DIR$/Controllers/Rectangulo.cs" />
         <option value="$PROJECT_DIR$/Controllers/Circulo.cs" />
         <option value="$PROJECT_DIR$/Controllers/Figura.cs" />
+        <option value="$PROJECT_DIR$/Controllers/Rectangulo.cs" />
         <option value="$PROJECT_DIR$/Controllers/Cuadrado.cs" />
         <option value="$PROJECT_DIR$/Program.cs" />
       </list>
@@ -141,41 +146,22 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="35" />
-    <option name="width" value="1920" />
-    <option name="height" value="1022" />
+    <option name="width" value="1366" />
+    <option name="height" value="710" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="SolutionExplorer" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="SolutionExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Example" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Example" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="do_not_show_solution_notification" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
   </component>
   <component name="RunDashboard">
@@ -229,12 +215,13 @@
       <workItem from="1553748118865" duration="204000" />
       <workItem from="1553748351284" duration="1963000" />
       <workItem from="1553753099726" duration="1139000" />
-      <workItem from="1553754409579" duration="6033000" />
+      <workItem from="1553754409579" duration="6292000" />
+      <workItem from="1553782017985" duration="1887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9586000" />
+    <option name="totallyTimeSpent" value="11732000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -246,18 +233,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="35" width="1920" height="1022" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="35" width="1366" height="710" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.22032085" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Build" sideWeight="0.49946523" weight="0.32962137" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946523" visible="true" weight="0.32962137" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946523" visible="true" weight="0.32935154" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -267,8 +252,9 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.32962137" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4973262" weight="0.33073497" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4973262" weight="0.33105803" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5005348" side_tool="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Build" order="14" sideWeight="0.49946523" weight="0.32935154" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -321,50 +307,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Controllers/Rectangulo.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
-          <folding>
-            <marker date="1553759432153" expanded="true" signature="45:1324" ph="{...}" />
-            <marker date="1553759432153" expanded="true" signature="80:1322" ph="{...}" />
-            <marker date="1553759432153" expanded="true" signature="210:217" ph="{...}" />
-            <marker date="1553759432153" expanded="true" signature="224:327" ph="/// Obtiene el area del rectangulo ... " />
-            <marker date="1553759432153" expanded="true" signature="369:408" ph="{...}" />
-            <marker date="1553759432153" expanded="true" signature="414:527" ph="/// Obtiene el perimetro del rectangulo ... " />
-            <marker date="1553759432153" expanded="true" signature="574:625" ph="{...}" />
-            <marker date="1553759432153" expanded="true" signature="632:743" ph="/// Obtiene la diagonal del rectangulo ... " />
-            <marker date="1553759432153" expanded="true" signature="780:858" ph="{...}" />
-            <marker date="1553759432153" expanded="true" signature="864:1000" ph="/// Determina si es cuadrado ... " />
-            <marker date="1553759432153" expanded="true" signature="1042:1082" ph="{...}" />
-            <marker date="1553759432153" expanded="true" signature="1235:1320" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/Circulo.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-          <folding>
-            <marker date="1553759457010" expanded="true" signature="45:1049" ph="{...}" />
-            <marker date="1553759457010" expanded="true" signature="77:1047" ph="{...}" />
-            <marker date="1553759457010" expanded="true" signature="112:213" ph="///  ... " />
-            <marker date="1553759457010" expanded="true" signature="260:304" ph="{...}" />
-            <marker date="1553759457010" expanded="true" signature="311:408" ph="///  ... " />
-            <marker date="1553759457010" expanded="true" signature="450:503" ph="{...}" />
-            <marker date="1553759457010" expanded="true" signature="509:603" ph="///  ... " />
-            <marker date="1553759457010" expanded="true" signature="646:697" ph="{...}" />
-            <marker date="1553759457010" expanded="true" signature="703:791" ph="///  ... " />
-            <marker date="1553759457010" expanded="true" signature="828:862" ph="{...}" />
-            <marker date="1553759457010" expanded="true" signature="988:1045" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Controllers/Figura.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
+        <state relative-caret-position="72">
           <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
           <folding>
             <marker date="1553759756070" expanded="true" signature="45:741" ph="{...}" />
@@ -377,34 +322,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/Circulo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+          <folding>
+            <marker date="1553759457010" expanded="true" signature="45:1049" ph="{...}" />
+            <marker date="1553759457010" expanded="true" signature="77:1047" ph="{...}" />
+            <marker date="1553759457010" expanded="true" signature="112:213" ph="/// Obtiene el perimetro del circulo ... " />
+            <marker date="1553759457010" expanded="true" signature="260:304" ph="{...}" />
+            <marker date="1553759457010" expanded="true" signature="311:408" ph="/// Obtiene el area de la figura ... " />
+            <marker date="1553759457010" expanded="true" signature="450:503" ph="{...}" />
+            <marker date="1553759457010" expanded="true" signature="509:603" ph="/// Obtiene la circunferencia ... " />
+            <marker date="1553759457010" expanded="true" signature="646:697" ph="{...}" />
+            <marker date="1553759457010" expanded="true" signature="703:791" ph="/// Obtiene el diametro ... " />
+            <marker date="1553759457010" expanded="true" signature="828:862" ph="{...}" />
+            <marker date="1553759457010" expanded="true" signature="988:1045" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Controllers/Cuadrado.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-383">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        <state relative-caret-position="92">
+          <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
           <folding>
-            <marker date="1553760402340" expanded="true" signature="45:1082" ph="{...}" />
-            <marker date="1553760402340" expanded="true" signature="78:1080" ph="{...}" />
-            <marker date="1553760402340" expanded="true" signature="136:434" ph="/// Simple Constructor ... " />
-            <marker date="1553760402340" expanded="true" signature="476:517" ph="{...}" />
-            <marker date="1553760402340" expanded="true" signature="523:617" ph="/// Return perimetro ... " />
-            <marker date="1553760402340" expanded="true" signature="664:696" ph="{...}" />
-            <marker date="1553760402340" expanded="true" signature="702:794" ph="/// Return diagonal ... " />
-            <marker date="1553760402340" expanded="true" signature="831:905" ph="{...}" />
-            <marker date="1553760402340" expanded="true" signature="1032:1078" ph="{...}" />
+            <marker date="1553782946610" expanded="true" signature="45:1067" ph="{...}" />
+            <marker date="1553782946610" expanded="true" signature="78:1065" ph="{...}" />
+            <marker date="1553782946610" expanded="true" signature="131:429" ph="/// Simple Constructor ... " />
+            <marker date="1553782946610" expanded="true" signature="471:512" ph="{...}" />
+            <marker date="1553782946610" expanded="true" signature="518:612" ph="/// Return perimetro ... " />
+            <marker date="1553782946610" expanded="true" signature="659:691" ph="{...}" />
+            <marker date="1553782946610" expanded="true" signature="697:789" ph="/// Return diagonal ... " />
+            <marker date="1553782946610" expanded="true" signature="826:900" ph="{...}" />
+            <marker date="1553782946610" expanded="true" signature="1035:1063" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/Rectangulo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+          <folding>
+            <marker date="1553782898433" expanded="true" signature="45:1303" ph="{...}" />
+            <marker date="1553782898433" expanded="true" signature="80:1301" ph="{...}" />
+            <marker date="1553782898433" expanded="true" signature="210:217" ph="{...}" />
+            <marker date="1553782898433" expanded="true" signature="224:327" ph="/// Obtiene el area del rectangulo ... " />
+            <marker date="1553782898433" expanded="true" signature="369:408" ph="{...}" />
+            <marker date="1553782898433" expanded="true" signature="414:527" ph="/// Obtiene el perimetro del rectangulo ... " />
+            <marker date="1553782898433" expanded="true" signature="574:625" ph="{...}" />
+            <marker date="1553782898433" expanded="true" signature="632:743" ph="/// Obtiene la diagonal del rectangulo ... " />
+            <marker date="1553782898433" expanded="true" signature="780:858" ph="{...}" />
+            <marker date="1553782898433" expanded="true" signature="864:1000" ph="/// Determina si es cuadrado ... " />
+            <marker date="1553782898433" expanded="true" signature="1042:1082" ph="{...}" />
+            <marker date="1553782898433" expanded="true" signature="1235:1299" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        <state relative-caret-position="146">
+          <caret line="72" column="62" selection-start-line="72" selection-start-column="62" selection-end-line="72" selection-end-column="62" />
           <folding>
-            <marker date="1553760510736" expanded="true" signature="6:40" ph="..." />
-            <marker date="1553760510736" expanded="true" signature="60:1888" ph="{...}" />
-            <marker date="1553760510736" expanded="true" signature="76:1886" ph="{...}" />
-            <marker date="1553760510736" expanded="true" signature="193:1884" ph="{...}" />
-            <marker date="1553760510736" expanded="true" signature="692:1842" ph="{...}" />
+            <marker date="1553783849316" expanded="false" signature="6:40" ph="..." />
+            <marker date="1553783849316" expanded="true" signature="60:4864" ph="{...}" />
+            <marker date="1553783849316" expanded="true" signature="76:4862" ph="{...}" />
+            <marker date="1553783849316" expanded="true" signature="295:4860" ph="{...}" />
+            <marker date="1553783849316" expanded="true" signature="795:1945" ph="{...}" />
+            <marker date="1553783849316" expanded="true" signature="1983:3388" ph="{...}" />
+            <marker date="1553783849316" expanded="true" signature="3427:4818" ph="{...}" />
           </folding>
         </state>
       </provider>
