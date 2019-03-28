@@ -42,8 +42,8 @@ public class Rectangulo : Figura {
     }
 
 
-    public Rectangulo(double ancho, double largo, string nombre = null, string color = null, string tipo = null,
-        double area = 0, double perimetro = 0) : base(nombre, color, tipo, area, perimetro) {
+    public Rectangulo(double ancho, double largo, string nombre = null, string color = null, string tipo = null) : base(
+        nombre, color, tipo) {
         _ancho = ancho;
         _largo = largo;
         tipo = "Rectangulos";

@@ -1,0 +1,11 @@
+/home/condor/EAN-Programacion.NET/Taller7/Taller7/bin/Debug/netcoreapp2.2/Taller7.deps.json
+/home/condor/EAN-Programacion.NET/Taller7/Taller7/bin/Debug/netcoreapp2.2/Taller7.runtimeconfig.json
+/home/condor/EAN-Programacion.NET/Taller7/Taller7/bin/Debug/netcoreapp2.2/Taller7.runtimeconfig.dev.json
+/home/condor/EAN-Programacion.NET/Taller7/Taller7/bin/Debug/netcoreapp2.2/Taller7.dll
+/home/condor/EAN-Programacion.NET/Taller7/Taller7/bin/Debug/netcoreapp2.2/Taller7.pdb
+/home/condor/EAN-Programacion.NET/Taller7/Taller7/obj/Debug/netcoreapp2.2/Example.csprojAssemblyReference.cache
+/home/condor/EAN-Programacion.NET/Taller7/Taller7/obj/Debug/netcoreapp2.2/Example.csproj.CoreCompileInputs.cache
+/home/condor/EAN-Programacion.NET/Taller7/Taller7/obj/Debug/netcoreapp2.2/Example.AssemblyInfoInputs.cache
+/home/condor/EAN-Programacion.NET/Taller7/Taller7/obj/Debug/netcoreapp2.2/Example.AssemblyInfo.cs
+/home/condor/EAN-Programacion.NET/Taller7/Taller7/obj/Debug/netcoreapp2.2/Taller7.dll
+/home/condor/EAN-Programacion.NET/Taller7/Taller7/obj/Debug/netcoreapp2.2/Taller7.pdb

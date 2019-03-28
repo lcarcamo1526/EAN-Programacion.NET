@@ -2,7 +2,8 @@ using System;
 
 namespace Taller7.Controllers {
 public class Cuadrado : Figura {
-    private double _lado;
+    public double Lado { get; private set; }
+    
 
 
     /// <inheritdoc />
@@ -17,7 +18,7 @@ public class Cuadrado : Figura {
     /// </summary>
     /// <returns>Area</returns>
     public override double ObtenerArea() {
-        return Math.Pow(_lado, 2);
+        return Math.Pow(Lado, 2);
     }
 
     /// <summary>
@@ -25,7 +26,7 @@ public class Cuadrado : Figura {
     /// </summary>
     /// <returns>perimetro</returns>
     public override double ObtenerPerimetro() {
-        return _lado * 4;
+        return Lado * 4;
     }
 
     /// <summary>
@@ -33,14 +34,14 @@ public class Cuadrado : Figura {
     /// </summary>
     /// <returns>diagonal</returns>
     public double ObtenerDiagonal() {
-        return Math.Sqrt((Math.Pow(_lado, 2) + Math.Pow(_lado, 2)));
+        return Math.Sqrt((Math.Pow(Lado, 2) + Math.Pow(Lado, 2)));
     }
 
 
-    public Cuadrado(double lado, string nombre = null, string color = null, string tipo = null, double area = 0,
-        double perimetro = 0) : base(nombre, color, tipo, area, perimetro) {
-        _lado = lado;
-        tipo = "Cuadrado";
+    public Cuadrado(double lado, string nombre = null, string color = null, string tipo = null) : base(nombre, color, tipo) {
+        
+        Lado = lado;
+        
     }
 }
 }

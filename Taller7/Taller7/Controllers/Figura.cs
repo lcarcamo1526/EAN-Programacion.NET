@@ -2,12 +2,15 @@ using System;
 
 namespace Taller7.Controllers {
 public class Figura {
-    private string _nombre;
-    private string _color;
-    private string _tipo;
-    private double _area;
-    private double _perimetro;
+    public string Nombre { get; private set; }
 
+    public string Color { get; private set; }
+
+    public string Tipo { get; private set; }
+
+    public double Area { get; private set; }
+
+    public double Perimetro { get; private set; }
 
     public virtual double ObtenerArea() {
         return 0;
@@ -18,16 +21,14 @@ public class Figura {
     }
 
     public override string ToString() {
-        return base.ToString();
+        return "" + Nombre + " " + Color + " " + Tipo + " " + Area + " " + Perimetro;
     }
 
 
-    public Figura(string nombre = null, string color = null, string tipo = null, double area = 0,
-        double perimetro = 0) {
-        _nombre = nombre ?? throw new ArgumentNullException(nameof(nombre));
-        _color = color ?? throw new ArgumentNullException(nameof(color));
-        _tipo = tipo ?? throw new ArgumentNullException(nameof(tipo));
-       
+    public Figura(string nombre = null, string color = null, string tipo = null) {
+        Nombre = nombre;
+        Color = color;
+        Tipo = tipo;
     }
 }
 }

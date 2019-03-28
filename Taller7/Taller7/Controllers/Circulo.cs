@@ -38,8 +38,7 @@ public class Circulo : Figura {
         return _radio * 2;
     }
 
-    public Circulo(double radio, string nombre = null, string color = null, string tipo = null, double area = 0,
-        double perimetro = 0) : base(nombre, color, tipo, area, perimetro) {
+    public Circulo(double radio, string nombre = null, string color = null, string tipo = null) : base(nombre, color, tipo) {
         _radio = radio;
         tipo = "Circulo";
     }
