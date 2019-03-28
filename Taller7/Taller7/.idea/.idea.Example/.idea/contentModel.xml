@@ -7,6 +7,7 @@
       <e p="Controllers" t="Include">
         <e p="Cuadrado.cs" t="Include" />
         <e p="Figura.cs" t="Include" />
+        <e p="Rectangulo.cs" t="Include" />
       </e>
       <e p="Example.csproj" t="IncludeRecursive" />
       <e p="Program.cs" t="Include" />
