@@ -5,13 +5,13 @@ using Taller8.Model;
 namespace Taller8 {
 class Program {
     static void Main(string[] args) {
-        Moneda dolar = new Moneda("Dolar", 10);
-        Console.WriteLine("Input tax");
+        Console.WriteLine("Please enter tax ");
         var tax = double.Parse(Console.ReadLine());
-        Console.WriteLine("Currency value ");
-        var value = double.Parse(Console.ReadLine());
-        dolar.Valor = value;
-        Console.WriteLine("Conversion " + dolar.CalcularConversionMoneda("dolar", "yuan", false, tax));
+        Console.WriteLine("Please enter origin value");
+        var origin = double.Parse(Console.ReadLine());
+        Moneda dolar = new Moneda("dolar", 4500);
+        Console.WriteLine(dolar.CalcularConversionMoneda(true, 200));
+        Console.WriteLine(dolar.CalcularConversionBitcoin("", dolar.CalcularConversionMoneda(true, 200), 0.00025));
     }
 }
 }

@@ -1,5 +1,3 @@
-using System;
-using System.ComponentModel;
 using Taller8.Controller;
 
 namespace Taller8.Model {
@@ -8,53 +6,31 @@ public class Moneda : interfaceConversionMonedas {
     public double Valor { get; set; }
 
     public Moneda(string nombre, double valor) {
-        this.Nombre = nombre;
-        this.Valor = valor;
+        Nombre = nombre;
+        Valor = valor;
     }
 
     public Moneda() {
     }
 
 
-    public double CalcularConversionMoneda(string origen, string destino, bool sentido, double tasa) {
-        if (sentido) {
-            try {
-                if (origen != "dolar" && destino != "") {
-                    return Valor * tasa;
-                }
-            }
-            catch (Exception e) {
-                Console.WriteLine(e);
-                throw new Exception("Por favor ingrese un valor valido");
-            }
-
-            return 0;
-        }
-        else {
-            try {
-                if (origen == "dolar" && destino != "") {
-                    return Valor / tasa;
-                }
-            }
-            catch (Exception e) {
-                Console.WriteLine(e);
-                throw new Exception("Por favor ingrese un valor valido");
-            }
-        }
-
-        return 0;
+    public double CalcularConversionMoneda(bool sentido, double tasa) {
+        return (sentido) ? Valor * tasa : Valor / tasa;
     }
 
-    public double CalcularConversionBitcoinstring(string origen, double valor, double tasa, double tasa_dolar) {
-        if (origen != "dolar") {
-            var valor_usd = CalcularConversionMoneda("", "dolar", true, tasa_dolar);
-            return valor_usd * tasa;
+    public double CalcularConversionBitcoin(string origen, double valor, double tasa) {
+        switch (origen) {
+            case "dolares":
+                return valor * tasa;
+            case "euros":
+                return valor * 1.12 * tasa;
+            case "yuanes":
+                return valor * 0.15 * tasa;
+            case "yenes":
+                return valor * 0.009 * tasa;
+            default:
+                return valor * 0.00031 * tasa;
         }
-        else {
-            return valor * tasa;
-        }
-
-        return 0;
     }
 }
 }
