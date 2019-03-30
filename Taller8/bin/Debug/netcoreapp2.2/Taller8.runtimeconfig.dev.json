@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "/home/condor/.dotnet/store/|arch|/|tfm|",
-      "/home/condor/.nuget/packages"
-    ]
-  }
-}

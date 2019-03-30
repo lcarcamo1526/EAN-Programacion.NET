@@ -1,0 +1,10 @@
+C:\Users\Laika\EAN-Programacion.NET\Taller8\NET FRAMEWORK\UI-Taller8\UI-Taller8\bin\Debug\UI-Taller8.exe.config
+C:\Users\Laika\EAN-Programacion.NET\Taller8\NET FRAMEWORK\UI-Taller8\UI-Taller8\bin\Debug\UI-Taller8.exe
+C:\Users\Laika\EAN-Programacion.NET\Taller8\NET FRAMEWORK\UI-Taller8\UI-Taller8\bin\Debug\UI-Taller8.pdb
+C:\Users\Laika\EAN-Programacion.NET\Taller8\NET FRAMEWORK\UI-Taller8\UI-Taller8\obj\Debug\UI-Taller8.csprojAssemblyReference.cache
+C:\Users\Laika\EAN-Programacion.NET\Taller8\NET FRAMEWORK\UI-Taller8\UI-Taller8\obj\Debug\UI_Taller8.Properties.Resources.resources
+C:\Users\Laika\EAN-Programacion.NET\Taller8\NET FRAMEWORK\UI-Taller8\UI-Taller8\obj\Debug\UI-Taller8.csproj.GenerateResource.cache
+C:\Users\Laika\EAN-Programacion.NET\Taller8\NET FRAMEWORK\UI-Taller8\UI-Taller8\obj\Debug\UI-Taller8.csproj.CoreCompileInputs.cache
+C:\Users\Laika\EAN-Programacion.NET\Taller8\NET FRAMEWORK\UI-Taller8\UI-Taller8\obj\Debug\UI-Taller8.exe
+C:\Users\Laika\EAN-Programacion.NET\Taller8\NET FRAMEWORK\UI-Taller8\UI-Taller8\obj\Debug\UI-Taller8.pdb
+C:\Users\Laika\EAN-Programacion.NET\Taller8\NET FRAMEWORK\UI-Taller8\UI-Taller8\obj\Debug\UI_Taller8.UI.resources
