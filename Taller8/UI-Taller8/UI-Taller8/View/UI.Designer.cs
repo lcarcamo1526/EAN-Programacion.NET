@@ -10,15 +10,15 @@ namespace UI_Taller8
     {
 
         Moneda currency = new Moneda();
-
+        double valor, tax, tax_btc;
+        string currencyOrigin, currencyDestine;
 
         private void CalcularConversion()
         {
 
             #region variables
 
-            double valor, tax, tax_btc;
-            string currencyOrigin, currencyDestine;
+           
             currencyDestine = currencyOrigin = "";
 
             #endregion
@@ -64,7 +64,6 @@ namespace UI_Taller8
 
             #endregion
 
-
             #region Conversion de monedas
             // Intenta castear la tasa de cambio de string a double
             double.TryParse(taxChange.Text, out tax);
@@ -79,10 +78,34 @@ namespace UI_Taller8
                 MessageBox.Show("Por favor ingrese una tasa de Bitcoin");
             }
 
-
+            //Asigna los resultados 
+            LabelOrigen.Text = currencyOrigin;
+            LabelDestino.Text = currencyDestine;
             destineValue.Text = "" + conversion;
             bitcoinValue.Text = "" + currency.CalcularConversionBitcoin(currencyDestine, conversion, tax_btc);
             #endregion
+        }
+
+        /// <summary>
+        /// Reinicia variables, lables y inputs
+        /// </summary>
+        private void ClearData() {
+            valor = tax = tax_btc = 0;
+            currencyOrigin = currencyDestine = "";
+            taxChange.Text = "";
+            btxTax.Text = "";
+            destineValue.Text = "";
+            bitcoinValue.Text = "";
+            OriginValue.Text = "";
+            LabelOrigen.Text = "";
+            LabelDestino.Text = "";
+        }
+
+        /// <summary>
+        /// Muestra informacion sobre el autor
+        /// </summary>
+        private void AboutUs() {
+            MessageBox.Show("Luis Carcamo - Github: lcarcamo1526");
         }
 
         /// <summary>
@@ -111,6 +134,7 @@ namespace UI_Taller8
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UI));
             this.label1 = new System.Windows.Forms.Label();
             this.About = new System.Windows.Forms.Button();
             this.OriginValue = new System.Windows.Forms.TextBox();
@@ -134,263 +158,198 @@ namespace UI_Taller8
             this.Exit = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.btxTax = new System.Windows.Forms.TextBox();
+            this.LabelDestino = new System.Windows.Forms.Label();
+            this.LabelBitcoin = new System.Windows.Forms.Label();
+            this.LabelOrigen = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
+            resources.ApplyResources(this.label1, "label1");
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label1.Font = new System.Drawing.Font("Arial", 16.30189F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(25, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(284, 28);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Conversion de Monedas";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // About
             // 
+            resources.ApplyResources(this.About, "About");
             this.About.BackColor = System.Drawing.Color.Transparent;
-            this.About.Font = new System.Drawing.Font("Arial", 10.86792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.About.Location = new System.Drawing.Point(420, 234);
             this.About.Name = "About";
-            this.About.Size = new System.Drawing.Size(113, 31);
-            this.About.TabIndex = 1;
-            this.About.Text = "Acerca de";
             this.About.UseVisualStyleBackColor = false;
+            this.About.Click += new System.EventHandler(this.About_Click);
             // 
             // OriginValue
             // 
-            this.OriginValue.Location = new System.Drawing.Point(160, 99);
+            resources.ApplyResources(this.OriginValue, "OriginValue");
             this.OriginValue.Name = "OriginValue";
-            this.OriginValue.Size = new System.Drawing.Size(144, 20);
-            this.OriginValue.TabIndex = 2;
             this.OriginValue.TextChanged += new System.EventHandler(this.OriginValue_TextChanged);
             this.OriginValue.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.86792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(26, 97);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(94, 20);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Valor origen";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.86792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(26, 174);
+            resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(123, 20);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Moneda destino";
             // 
             // Feel1
             // 
-            this.Feel1.AutoSize = true;
+            resources.ApplyResources(this.Feel1, "Feel1");
             this.Feel1.Checked = true;
-            this.Feel1.Location = new System.Drawing.Point(190, 245);
             this.Feel1.Name = "Feel1";
-            this.Feel1.Size = new System.Drawing.Size(114, 19);
-            this.Feel1.TabIndex = 5;
             this.Feel1.TabStop = true;
-            this.Feel1.Text = "Origen - Destino";
             this.Feel1.UseVisualStyleBackColor = true;
             this.Feel1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // Feel2
             // 
-            this.Feel2.AutoSize = true;
-            this.Feel2.Location = new System.Drawing.Point(190, 276);
+            resources.ApplyResources(this.Feel2, "Feel2");
             this.Feel2.Name = "Feel2";
-            this.Feel2.Size = new System.Drawing.Size(114, 19);
-            this.Feel2.TabIndex = 6;
-            this.Feel2.Text = "Destino - Origen";
             this.Feel2.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.18868F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(26, 258);
+            resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(158, 20);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Direccion Conversion";
             // 
             // CurrencyOrigin
             // 
+            resources.ApplyResources(this.CurrencyOrigin, "CurrencyOrigin");
             this.CurrencyOrigin.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CurrencyOrigin.FormattingEnabled = true;
             this.CurrencyOrigin.Items.AddRange(new object[] {
-            "Dolares",
-            "Euros",
-            "Pesos",
-            "Yenes",
-            "Yuanes"});
-            this.CurrencyOrigin.Location = new System.Drawing.Point(160, 135);
+            resources.GetString("CurrencyOrigin.Items"),
+            resources.GetString("CurrencyOrigin.Items1"),
+            resources.GetString("CurrencyOrigin.Items2"),
+            resources.GetString("CurrencyOrigin.Items3"),
+            resources.GetString("CurrencyOrigin.Items4")});
             this.CurrencyOrigin.Name = "CurrencyOrigin";
-            this.CurrencyOrigin.Size = new System.Drawing.Size(144, 21);
             this.CurrencyOrigin.Sorted = true;
-            this.CurrencyOrigin.TabIndex = 8;
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.86792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(26, 136);
+            resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(115, 20);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Moneda origen";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.86792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(26, 206);
+            resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(121, 20);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "Tasa de cambio";
             // 
             // taxChange
             // 
-            this.taxChange.Location = new System.Drawing.Point(160, 208);
+            resources.ApplyResources(this.taxChange, "taxChange");
             this.taxChange.Name = "taxChange";
-            this.taxChange.Size = new System.Drawing.Size(144, 20);
-            this.taxChange.TabIndex = 10;
             this.taxChange.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             this.taxChange.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress_1);
             // 
             // CurrencyDestine
             // 
+            resources.ApplyResources(this.CurrencyDestine, "CurrencyDestine");
             this.CurrencyDestine.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CurrencyDestine.FormattingEnabled = true;
             this.CurrencyDestine.Items.AddRange(new object[] {
-            "Dolares",
-            "Yenes",
-            "Yuanes",
-            "Euros",
-            "Pesos"});
-            this.CurrencyDestine.Location = new System.Drawing.Point(160, 176);
+            resources.GetString("CurrencyDestine.Items"),
+            resources.GetString("CurrencyDestine.Items1"),
+            resources.GetString("CurrencyDestine.Items2"),
+            resources.GetString("CurrencyDestine.Items3"),
+            resources.GetString("CurrencyDestine.Items4")});
             this.CurrencyDestine.Name = "CurrencyDestine";
-            this.CurrencyDestine.Size = new System.Drawing.Size(144, 21);
-            this.CurrencyDestine.TabIndex = 12;
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
+            resources.ApplyResources(this.label7, "label7");
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label7.Font = new System.Drawing.Font("Arial", 16.30189F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(415, 24);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(294, 28);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "Resultado de Conversion";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // destineValue
             // 
-            this.destineValue.Location = new System.Drawing.Point(549, 79);
+            resources.ApplyResources(this.destineValue, "destineValue");
             this.destineValue.Name = "destineValue";
             this.destineValue.ReadOnly = true;
-            this.destineValue.Size = new System.Drawing.Size(144, 20);
-            this.destineValue.TabIndex = 14;
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.86792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(416, 79);
+            resources.ApplyResources(this.label8, "label8");
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(102, 20);
-            this.label8.TabIndex = 15;
-            this.label8.Text = "Valor destino";
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.86792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(416, 116);
+            resources.ApplyResources(this.label9, "label9");
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(96, 20);
-            this.label9.TabIndex = 17;
-            this.label9.Text = "Valor bitcoin";
             this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // bitcoinValue
             // 
-            this.bitcoinValue.Location = new System.Drawing.Point(549, 116);
+            resources.ApplyResources(this.bitcoinValue, "bitcoinValue");
             this.bitcoinValue.Name = "bitcoinValue";
             this.bitcoinValue.ReadOnly = true;
-            this.bitcoinValue.Size = new System.Drawing.Size(144, 20);
-            this.bitcoinValue.TabIndex = 16;
             this.bitcoinValue.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // CheckCurrency
             // 
+            resources.ApplyResources(this.CheckCurrency, "CheckCurrency");
             this.CheckCurrency.BackColor = System.Drawing.Color.Transparent;
-            this.CheckCurrency.Font = new System.Drawing.Font("Arial", 10.86792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CheckCurrency.Location = new System.Drawing.Point(420, 168);
             this.CheckCurrency.Name = "CheckCurrency";
-            this.CheckCurrency.Size = new System.Drawing.Size(113, 31);
-            this.CheckCurrency.TabIndex = 18;
-            this.CheckCurrency.Text = "Calcular";
             this.CheckCurrency.UseVisualStyleBackColor = false;
             this.CheckCurrency.Click += new System.EventHandler(this.CheckCurrency_Click);
             // 
             // CleanData
             // 
+            resources.ApplyResources(this.CleanData, "CleanData");
             this.CleanData.BackColor = System.Drawing.Color.Transparent;
-            this.CleanData.Font = new System.Drawing.Font("Arial", 10.86792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CleanData.Location = new System.Drawing.Point(580, 165);
             this.CleanData.Name = "CleanData";
-            this.CleanData.Size = new System.Drawing.Size(113, 31);
-            this.CleanData.TabIndex = 19;
-            this.CleanData.Text = "Limpiar";
             this.CleanData.UseVisualStyleBackColor = false;
+            this.CleanData.Click += new System.EventHandler(this.CleanData_Click);
             // 
             // Exit
             // 
+            resources.ApplyResources(this.Exit, "Exit");
             this.Exit.BackColor = System.Drawing.Color.Transparent;
-            this.Exit.Font = new System.Drawing.Font("Arial", 10.86792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Exit.Location = new System.Drawing.Point(580, 236);
             this.Exit.Name = "Exit";
-            this.Exit.Size = new System.Drawing.Size(113, 31);
-            this.Exit.TabIndex = 20;
-            this.Exit.Text = "Salir";
             this.Exit.UseVisualStyleBackColor = false;
+            this.Exit.Click += new System.EventHandler(this.Exit_Click);
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.86792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(28, 313);
+            resources.ApplyResources(this.label10, "label10");
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(96, 20);
-            this.label10.TabIndex = 21;
-            this.label10.Text = "Tasa Bitcoin";
             // 
             // btxTax
             // 
-            this.btxTax.Location = new System.Drawing.Point(160, 313);
+            resources.ApplyResources(this.btxTax, "btxTax");
             this.btxTax.Name = "btxTax";
-            this.btxTax.Size = new System.Drawing.Size(144, 20);
-            this.btxTax.TabIndex = 22;
             this.btxTax.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.btxTax_KeyPress);
+            // 
+            // LabelDestino
+            // 
+            resources.ApplyResources(this.LabelDestino, "LabelDestino");
+            this.LabelDestino.Name = "LabelDestino";
+            // 
+            // LabelBitcoin
+            // 
+            resources.ApplyResources(this.LabelBitcoin, "LabelBitcoin");
+            this.LabelBitcoin.Name = "LabelBitcoin";
+            // 
+            // LabelOrigen
+            // 
+            resources.ApplyResources(this.LabelOrigen, "LabelOrigen");
+            this.LabelOrigen.Name = "LabelOrigen";
             // 
             // UI
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(801, 366);
+            this.Controls.Add(this.LabelOrigen);
+            this.Controls.Add(this.LabelBitcoin);
+            this.Controls.Add(this.LabelDestino);
             this.Controls.Add(this.btxTax);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.Exit);
@@ -415,7 +374,6 @@ namespace UI_Taller8
             this.Controls.Add(this.About);
             this.Controls.Add(this.label1);
             this.Name = "UI";
-            this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -446,6 +404,9 @@ namespace UI_Taller8
         private System.Windows.Forms.Button Exit;
         private Label label10;
         private TextBox btxTax;
+        private Label LabelDestino;
+        private Label LabelBitcoin;
+        private Label LabelOrigen;
     }
 }
 

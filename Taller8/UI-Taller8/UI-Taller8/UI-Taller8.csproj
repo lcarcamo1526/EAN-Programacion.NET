@@ -56,6 +56,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="View\UI.es.resx">
+      <DependentUpon>UI.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\UI.resx">
       <DependentUpon>UI.cs</DependentUpon>
     </EmbeddedResource>

@@ -87,5 +87,20 @@ namespace UI_Taller8 {
                 e.Handled = true;
             }
         }
+
+        private void CleanData_Click(object sender, EventArgs e)
+        {
+            ClearData();
+        }
+
+        private void About_Click(object sender, EventArgs e)
+        {
+            AboutUs();
+        }
+
+        private void Exit_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
+        }
     }
 }
