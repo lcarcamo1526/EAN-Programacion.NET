@@ -14,7 +14,12 @@ namespace Taller8.Model {
         public Moneda() {
         }
 
-
+        /// <summary>
+        /// Calcula la conversion de la moneda
+        /// </summary>
+        /// <param name="sentido">Sentido Origen- Destino, Destino - Origen</param>
+        /// <param name="tasa">tasa de conversion</param>
+        /// <returns></returns>
         public double CalcularConversionMoneda(bool sentido, double tasa) {
             if (tasa == null && sentido == null) {
                 return 0;
@@ -23,6 +28,13 @@ namespace Taller8.Model {
             return (sentido) ? Valor * tasa : Valor / tasa;
         }
 
+        /// <summary>
+        /// Calcula la conversion de la moneda a BTC
+        /// </summary>
+        /// <param name="origen">Moneda origen</param>
+        /// <param name="valor"> valor de la moneda</param>
+        /// <param name="tasa">tasa de cambio</param>
+        /// <returns></returns>
         public double CalcularConversionBitcoin(string origen, double valor, double tasa) {
             if (origen != null && valor != null && tasa != null) {
                 switch (origen.ToLower()) {

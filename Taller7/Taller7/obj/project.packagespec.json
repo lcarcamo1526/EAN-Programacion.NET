@@ -1,11 +1,14 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/condor/EAN-Programacion.NET/Taller7/Taller7/Example.csproj",
+    "projectUniqueName": "C:\\Users\\Laika\\EAN-Programacion.NET\\Taller7\\Taller7\\Example.csproj",
     "projectName": "Taller7",
-    "projectPath": "/home/condor/EAN-Programacion.NET/Taller7/Taller7/Example.csproj",
-    "outputPath": "/home/condor/EAN-Programacion.NET/Taller7/Taller7/obj/",
+    "projectPath": "C:\\Users\\Laika\\EAN-Programacion.NET\\Taller7\\Taller7\\Example.csproj",
+    "outputPath": "C:\\Users\\Laika\\EAN-Programacion.NET\\Taller7\\Taller7\\obj\\",
     "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
     "originalTargetFrameworks": [
       "netcoreapp2.2"
     ],

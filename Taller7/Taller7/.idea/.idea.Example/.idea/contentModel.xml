@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/.Rider2018.3/system/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.Rider2018.3/system/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_Taller7.-1282636130.00" t="ExcludeRecursive" />
-    <e p="$PROJECT_DIR$" t="IncludeRecursive">
-      <e p="Controllers" t="Include">
-        <e p="Circulo.cs" t="Include" />
-        <e p="Cuadrado.cs" t="Include" />
+    <e p="C:\Users\Laika\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Laika\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Taller7.-2020356986.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Laika\EAN-Programacion.NET\Taller7\Taller7" t="IncludeRecursive">
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Controlador" t="Include">
         <e p="Figura.cs" t="Include" />
-        <e p="Rectangulo.cs" t="Include" />
+        <e p="Idioma.cs" t="Include" />
       </e>
       <e p="Example.csproj" t="IncludeRecursive" />
-      <e p="Program.cs" t="Include" />
-      <e p="bin" t="ExcludeRecursive" />
+      <e p="Modelo" t="Include">
+        <e p="Circulo.cs" t="Include" />
+        <e p="Cuadrado.cs" t="Include" />
+        <e p="Ingles.cs" t="Include" />
+        <e p="Portugues.cs" t="Include" />
+        <e p="Rectangulo.cs" t="Include" />
+        <e p="suajini.cs" t="Include" />
+      </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
           <e p="netcoreapp2.2" t="Include">
@@ -21,6 +26,8 @@
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+      <e p="Vista" t="Include" />
     </e>
   </component>
 </project>

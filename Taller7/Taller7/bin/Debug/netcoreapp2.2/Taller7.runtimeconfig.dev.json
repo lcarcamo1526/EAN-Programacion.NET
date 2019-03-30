@@ -1,8 +1,9 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/home/condor/.dotnet/store/|arch|/|tfm|",
-      "/home/condor/.nuget/packages"
+      "C:\\Users\\Laika\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Laika\\.nuget\\packages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }
 }

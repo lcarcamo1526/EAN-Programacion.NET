@@ -2,14 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20c06fa6-38aa-415f-9877-5c3bfd36f063" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Example/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Example/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Example/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/Cuadrado.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Cuadrado.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/Rectangulo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Rectangulo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Circulo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Cuadrado.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Figura.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Rectangulo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Example.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Example.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/Taller7.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/Taller7.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/Taller7.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/Taller7.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/Taller7.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/Taller7.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Example.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Example.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Example.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Example.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Example.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Example.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Example.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Example.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Example.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Example.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Taller7.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Taller7.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Taller7.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Taller7.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Example.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Example.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Example.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Example.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Example.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Example.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller8/UI-Taller8/.vs/UI-Taller8/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../Taller8/UI-Taller8/.vs/UI-Taller8/v15/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller8/UI-Taller8/.vs/UI-Taller8/v15/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../../Taller8/UI-Taller8/.vs/UI-Taller8/v15/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller8/UI-Taller8/.vs/UI-Taller8/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/../../Taller8/UI-Taller8/.vs/UI-Taller8/v15/Server/sqlite3/storage.ide-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller8/UI-Taller8/.vs/UI-Taller8/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/../../Taller8/UI-Taller8/.vs/UI-Taller8/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller8/UI-Taller8/UI-Taller8/Model/Moneda.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Taller8/UI-Taller8/UI-Taller8/Model/Moneda.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller8/UI-Taller8/UI-Taller8/bin/Debug/UI-Taller8.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Taller8/UI-Taller8/UI-Taller8/bin/Debug/UI-Taller8.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller8/UI-Taller8/UI-Taller8/bin/Debug/UI-Taller8.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Taller8/UI-Taller8/UI-Taller8/bin/Debug/UI-Taller8.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller8/UI-Taller8/UI-Taller8/bin/Debug/es/UI-Taller8.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Taller8/UI-Taller8/UI-Taller8/bin/Debug/es/UI-Taller8.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller8/UI-Taller8/UI-Taller8/obj/Debug/UI-Taller8.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Taller8/UI-Taller8/UI-Taller8/obj/Debug/UI-Taller8.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller8/UI-Taller8/UI-Taller8/obj/Debug/UI-Taller8.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Taller8/UI-Taller8/UI-Taller8/obj/Debug/UI-Taller8.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taller8/UI-Taller8/UI-Taller8/obj/Debug/es/UI-Taller8.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Taller8/UI-Taller8/UI-Taller8/obj/Debug/es/UI-Taller8.resources.dll" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,98 +48,105 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="72" column="62" selection-start-line="72" selection-start-column="62" selection-end-line="72" selection-end-column="62" />
+            <state relative-caret-position="1472">
+              <caret line="78" column="33" lean-forward="true" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
               <folding>
-                <marker date="1553783849316" expanded="false" signature="6:40" ph="..." />
-                <marker date="1553783849316" expanded="true" signature="60:4864" ph="{...}" />
-                <marker date="1553783849316" expanded="true" signature="76:4862" ph="{...}" />
-                <marker date="1553783849316" expanded="true" signature="295:4860" ph="{...}" />
-                <marker date="1553783849316" expanded="true" signature="795:1945" ph="{...}" />
-                <marker date="1553783849316" expanded="true" signature="1983:3388" ph="{...}" />
-                <marker date="1553783849316" expanded="true" signature="3427:4818" ph="{...}" />
+                <marker date="1553972650925" expanded="false" signature="6:40" ph="..." />
+                <marker date="1553972650925" expanded="true" signature="82:8001" ph="{...}" />
+                <marker date="1553972650925" expanded="true" signature="102:7999" ph="{...}" />
+                <marker date="1553972650925" expanded="true" signature="525:1527" ph="{...}" />
+                <marker date="1553972650925" expanded="true" signature="1021:1476" ph="{...}" />
+                <marker date="1553972650925" expanded="true" signature="1570:3044" ph="{...}" />
+                <marker date="1553972650925" expanded="false" signature="2375:2935" ph="{...}" />
+                <marker date="1553972650925" expanded="true" signature="3088:7993" ph="{...}" />
+                <marker date="1553972650925" expanded="true" signature="3657:4871" ph="{...}" />
+                <marker date="1553972650925" expanded="true" signature="4913:6394" ph="{...}" />
+                <marker date="1553972650925" expanded="true" signature="6437:7809" ph="{...}" />
+                <marker date="1553972650925" expanded="true" signature="7851:7943" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controllers/Figura.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-              <folding>
-                <marker date="1553759756070" expanded="true" signature="45:741" ph="{...}" />
-                <marker date="1553759756070" expanded="true" signature="67:739" ph="{...}" />
-                <marker date="1553759756070" expanded="true" signature="347:372" ph="{...}" />
-                <marker date="1553759756070" expanded="true" signature="419:444" ph="{...}" />
-                <marker date="1553759756070" expanded="true" signature="484:577" ph="{...}" />
-                <marker date="1553759756070" expanded="true" signature="661:737" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controllers/Rectangulo.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-              <folding>
-                <marker date="1553782898433" expanded="true" signature="45:1303" ph="{...}" />
-                <marker date="1553782898433" expanded="true" signature="80:1301" ph="{...}" />
-                <marker date="1553782898433" expanded="true" signature="210:217" ph="{...}" />
-                <marker date="1553782898433" expanded="true" signature="224:327" ph="/// Obtiene el area del rectangulo ... " />
-                <marker date="1553782898433" expanded="true" signature="369:408" ph="{...}" />
-                <marker date="1553782898433" expanded="true" signature="414:527" ph="/// Obtiene el perimetro del rectangulo ... " />
-                <marker date="1553782898433" expanded="true" signature="574:625" ph="{...}" />
-                <marker date="1553782898433" expanded="true" signature="632:743" ph="/// Obtiene la diagonal del rectangulo ... " />
-                <marker date="1553782898433" expanded="true" signature="780:858" ph="{...}" />
-                <marker date="1553782898433" expanded="true" signature="864:1000" ph="/// Determina si es cuadrado ... " />
-                <marker date="1553782898433" expanded="true" signature="1042:1082" ph="{...}" />
-                <marker date="1553782898433" expanded="true" signature="1235:1299" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controllers/Circulo.cs">
+        <entry file="file://$PROJECT_DIR$/Controlador/Idioma.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
-              <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
               <folding>
-                <marker date="1553759457010" expanded="true" signature="45:1049" ph="{...}" />
-                <marker date="1553759457010" expanded="true" signature="77:1047" ph="{...}" />
-                <marker date="1553759457010" expanded="true" signature="112:213" ph="/// Obtiene el perimetro del circulo ... " />
-                <marker date="1553759457010" expanded="true" signature="260:304" ph="{...}" />
-                <marker date="1553759457010" expanded="true" signature="311:408" ph="/// Obtiene el area de la figura ... " />
-                <marker date="1553759457010" expanded="true" signature="450:503" ph="{...}" />
-                <marker date="1553759457010" expanded="true" signature="509:603" ph="/// Obtiene la circunferencia ... " />
-                <marker date="1553759457010" expanded="true" signature="646:697" ph="{...}" />
-                <marker date="1553759457010" expanded="true" signature="703:791" ph="/// Obtiene el diametro ... " />
-                <marker date="1553759457010" expanded="true" signature="828:862" ph="{...}" />
-                <marker date="1553759457010" expanded="true" signature="988:1045" ph="{...}" />
+                <marker date="1553969579286" expanded="true" signature="59:137" ph="{...}" />
+                <marker date="1553969579286" expanded="true" signature="89:135" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controllers/Cuadrado.cs">
+        <entry file="file://$PROJECT_DIR$/Modelo/suajini.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+            <state relative-caret-position="506">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
-                <marker date="1553782946610" expanded="true" signature="45:1067" ph="{...}" />
-                <marker date="1553782946610" expanded="true" signature="78:1065" ph="{...}" />
-                <marker date="1553782946610" expanded="true" signature="131:429" ph="/// Simple Constructor ... " />
-                <marker date="1553782946610" expanded="true" signature="471:512" ph="{...}" />
-                <marker date="1553782946610" expanded="true" signature="518:612" ph="/// Return perimetro ... " />
-                <marker date="1553782946610" expanded="true" signature="659:691" ph="{...}" />
-                <marker date="1553782946610" expanded="true" signature="697:789" ph="/// Return diagonal ... " />
-                <marker date="1553782946610" expanded="true" signature="826:900" ph="{...}" />
-                <marker date="1553782946610" expanded="true" signature="1035:1063" ph="{...}" />
+                <marker date="1553972031397" expanded="true" signature="6:60" ph="..." />
+                <marker date="1553972031397" expanded="true" signature="87:913" ph="{...}" />
+                <marker date="1553972031397" expanded="true" signature="123:911" ph="{...}" />
+                <marker date="1553972031397" expanded="true" signature="214:301" ph="/// Rellena el diccionario con informacion ... " />
+                <marker date="1553972031397" expanded="true" signature="339:592" ph="{...}" />
+                <marker date="1553972031397" expanded="true" signature="602:776" ph="/// traduce la frase a idioma suajini ... " />
+                <marker date="1553972031397" expanded="true" signature="822:905" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modelo/Ingles.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+              <folding>
+                <marker date="1553972015568" expanded="true" signature="6:60" ph="..." />
+                <marker date="1553972015568" expanded="true" signature="87:907" ph="{...}" />
+                <marker date="1553972015568" expanded="true" signature="122:905" ph="{...}" />
+                <marker date="1553972015568" expanded="true" signature="213:300" ph="/// Rellena el diccionario con informacion ... " />
+                <marker date="1553972015568" expanded="true" signature="338:590" ph="{...}" />
+                <marker date="1553972015568" expanded="true" signature="600:773" ph="/// traduce la frase a idioma ingles ... " />
+                <marker date="1553972015568" expanded="true" signature="819:899" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modelo/Portugues.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="24" column="70" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="70" />
+              <folding>
+                <marker date="1553971994055" expanded="true" signature="6:60" ph="..." />
+                <marker date="1553971994055" expanded="true" signature="87:906" ph="{...}" />
+                <marker date="1553971994055" expanded="true" signature="125:904" ph="{...}" />
+                <marker date="1553971994055" expanded="true" signature="216:303" ph="/// Rellena el diccionario con informacion ... " />
+                <marker date="1553971994055" expanded="true" signature="341:584" ph="{...}" />
+                <marker date="1553971994055" expanded="true" signature="594:770" ph="/// traduce la frase a idioma Portugues ... " />
+                <marker date="1553971994055" expanded="true" signature="816:898" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controlador/Figura.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-206">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding>
+                <marker date="1553876009538" expanded="true" signature="45:741" ph="{...}" />
+                <marker date="1553876009538" expanded="true" signature="67:739" ph="{...}" />
+                <marker date="1553876009538" expanded="true" signature="347:372" ph="{...}" />
+                <marker date="1553876009538" expanded="true" signature="419:444" ph="{...}" />
+                <marker date="1553876009538" expanded="true" signature="484:577" ph="{...}" />
+                <marker date="1553876009538" expanded="true" signature="661:737" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -125,11 +158,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Controllers/Figura.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controlador/Figura.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Controllers/Rectangulo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Controllers/Circulo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Controllers/Cuadrado.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controlador/Idioma.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Modelo/suajini.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Modelo/Ingles.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Modelo/Portugues.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -140,27 +174,57 @@
         <option value="$PROJECT_DIR$/Controllers/Figura.cs" />
         <option value="$PROJECT_DIR$/Controllers/Rectangulo.cs" />
         <option value="$PROJECT_DIR$/Controllers/Cuadrado.cs" />
+        <option value="$PROJECT_DIR$/Controlador/Idioma.cs" />
+        <option value="$PROJECT_DIR$/Modelo/Portugues.cs" />
+        <option value="$PROJECT_DIR$/Modelo/Ingles.cs" />
+        <option value="$PROJECT_DIR$/Modelo/suajini.cs" />
         <option value="$PROJECT_DIR$/Program.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="35" />
-    <option name="width" value="1366" />
-    <option name="height" value="710" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="34" />
+    <option name="width" value="1367" />
+    <option name="height" value="712" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Example" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Example" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controlador" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Example" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Modelo" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="do_not_show_solution_notification" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Example.csproj" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
   </component>
@@ -217,11 +281,12 @@
       <workItem from="1553753099726" duration="1139000" />
       <workItem from="1553754409579" duration="6292000" />
       <workItem from="1553782017985" duration="1887000" />
+      <workItem from="1553969110705" duration="3558000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11732000" />
+    <option name="totallyTimeSpent" value="15290000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -233,63 +298,37 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="35" width="1366" height="710" extended-state="0" />
+    <frame x="-7" y="-7" width="1753" height="962" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22032085" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22005899" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946523" visible="true" weight="0.32935154" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
-      <window_info anchor="bottom" id="NuGet" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.32962137" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4973262" weight="0.33105803" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5005348" side_tool="true" weight="0.32962137" />
-      <window_info anchor="bottom" id="Build" order="14" sideWeight="0.49946523" weight="0.32935154" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Errors In Solution" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22032085" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="0" sideWeight="0.49946523" weight="0.32962137" />
+      <window_info anchor="bottom" id="Performance Profiler" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49946523" visible="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49946523" weight="0.32851985" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32962137" />
       <window_info anchor="bottom" id="NuGet" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Unit Tests" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.4973262" weight="0.33073497" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.32962137" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.4973262" visible="true" weight="0.3309266" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5005348" side_tool="true" weight="0.32962137" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Errors In Solution" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-    </layout-to-restore>
+      <window_info anchor="bottom" id="Build" order="15" sideWeight="0.49946523" weight="0.32851985" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Errors In Solution" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -307,92 +346,108 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Controllers/Figura.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding>
-            <marker date="1553759756070" expanded="true" signature="45:741" ph="{...}" />
-            <marker date="1553759756070" expanded="true" signature="67:739" ph="{...}" />
-            <marker date="1553759756070" expanded="true" signature="347:372" ph="{...}" />
-            <marker date="1553759756070" expanded="true" signature="419:444" ph="{...}" />
-            <marker date="1553759756070" expanded="true" signature="484:577" ph="{...}" />
-            <marker date="1553759756070" expanded="true" signature="661:737" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/Circulo.cs">
+    <entry file="file://$PROJECT_DIR$/Controllers/Figura.cs" />
+    <entry file="file://$PROJECT_DIR$/Controllers/Circulo.cs" />
+    <entry file="file://$PROJECT_DIR$/Controllers/Cuadrado.cs" />
+    <entry file="file://$PROJECT_DIR$/Controllers/Rectangulo.cs" />
+    <entry file="file://$PROJECT_DIR$/Vista/Form1.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-          <folding>
-            <marker date="1553759457010" expanded="true" signature="45:1049" ph="{...}" />
-            <marker date="1553759457010" expanded="true" signature="77:1047" ph="{...}" />
-            <marker date="1553759457010" expanded="true" signature="112:213" ph="/// Obtiene el perimetro del circulo ... " />
-            <marker date="1553759457010" expanded="true" signature="260:304" ph="{...}" />
-            <marker date="1553759457010" expanded="true" signature="311:408" ph="/// Obtiene el area de la figura ... " />
-            <marker date="1553759457010" expanded="true" signature="450:503" ph="{...}" />
-            <marker date="1553759457010" expanded="true" signature="509:603" ph="/// Obtiene la circunferencia ... " />
-            <marker date="1553759457010" expanded="true" signature="646:697" ph="{...}" />
-            <marker date="1553759457010" expanded="true" signature="703:791" ph="/// Obtiene el diametro ... " />
-            <marker date="1553759457010" expanded="true" signature="828:862" ph="{...}" />
-            <marker date="1553759457010" expanded="true" signature="988:1045" ph="{...}" />
-          </folding>
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/Cuadrado.cs">
+    <entry file="file://$PROJECT_DIR$/Controlador/Idioma.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
           <folding>
-            <marker date="1553782946610" expanded="true" signature="45:1067" ph="{...}" />
-            <marker date="1553782946610" expanded="true" signature="78:1065" ph="{...}" />
-            <marker date="1553782946610" expanded="true" signature="131:429" ph="/// Simple Constructor ... " />
-            <marker date="1553782946610" expanded="true" signature="471:512" ph="{...}" />
-            <marker date="1553782946610" expanded="true" signature="518:612" ph="/// Return perimetro ... " />
-            <marker date="1553782946610" expanded="true" signature="659:691" ph="{...}" />
-            <marker date="1553782946610" expanded="true" signature="697:789" ph="/// Return diagonal ... " />
-            <marker date="1553782946610" expanded="true" signature="826:900" ph="{...}" />
-            <marker date="1553782946610" expanded="true" signature="1035:1063" ph="{...}" />
+            <marker date="1553969579286" expanded="true" signature="59:137" ph="{...}" />
+            <marker date="1553969579286" expanded="true" signature="89:135" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/Rectangulo.cs">
+    <entry file="file://$PROJECT_DIR$/Controlador/Figura.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+        <state relative-caret-position="-206">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding>
-            <marker date="1553782898433" expanded="true" signature="45:1303" ph="{...}" />
-            <marker date="1553782898433" expanded="true" signature="80:1301" ph="{...}" />
-            <marker date="1553782898433" expanded="true" signature="210:217" ph="{...}" />
-            <marker date="1553782898433" expanded="true" signature="224:327" ph="/// Obtiene el area del rectangulo ... " />
-            <marker date="1553782898433" expanded="true" signature="369:408" ph="{...}" />
-            <marker date="1553782898433" expanded="true" signature="414:527" ph="/// Obtiene el perimetro del rectangulo ... " />
-            <marker date="1553782898433" expanded="true" signature="574:625" ph="{...}" />
-            <marker date="1553782898433" expanded="true" signature="632:743" ph="/// Obtiene la diagonal del rectangulo ... " />
-            <marker date="1553782898433" expanded="true" signature="780:858" ph="{...}" />
-            <marker date="1553782898433" expanded="true" signature="864:1000" ph="/// Determina si es cuadrado ... " />
-            <marker date="1553782898433" expanded="true" signature="1042:1082" ph="{...}" />
-            <marker date="1553782898433" expanded="true" signature="1235:1299" ph="{...}" />
+            <marker date="1553876009538" expanded="true" signature="45:741" ph="{...}" />
+            <marker date="1553876009538" expanded="true" signature="67:739" ph="{...}" />
+            <marker date="1553876009538" expanded="true" signature="347:372" ph="{...}" />
+            <marker date="1553876009538" expanded="true" signature="419:444" ph="{...}" />
+            <marker date="1553876009538" expanded="true" signature="484:577" ph="{...}" />
+            <marker date="1553876009538" expanded="true" signature="661:737" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modelo/Portugues.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="70" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="70" />
+          <folding>
+            <marker date="1553971994055" expanded="true" signature="6:60" ph="..." />
+            <marker date="1553971994055" expanded="true" signature="87:906" ph="{...}" />
+            <marker date="1553971994055" expanded="true" signature="125:904" ph="{...}" />
+            <marker date="1553971994055" expanded="true" signature="216:303" ph="/// Rellena el diccionario con informacion ... " />
+            <marker date="1553971994055" expanded="true" signature="341:584" ph="{...}" />
+            <marker date="1553971994055" expanded="true" signature="594:770" ph="/// traduce la frase a idioma Portugues ... " />
+            <marker date="1553971994055" expanded="true" signature="816:898" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modelo/suajini.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <marker date="1553972031397" expanded="true" signature="6:60" ph="..." />
+            <marker date="1553972031397" expanded="true" signature="87:913" ph="{...}" />
+            <marker date="1553972031397" expanded="true" signature="123:911" ph="{...}" />
+            <marker date="1553972031397" expanded="true" signature="214:301" ph="/// Rellena el diccionario con informacion ... " />
+            <marker date="1553972031397" expanded="true" signature="339:592" ph="{...}" />
+            <marker date="1553972031397" expanded="true" signature="602:776" ph="/// traduce la frase a idioma suajini ... " />
+            <marker date="1553972031397" expanded="true" signature="822:905" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modelo/Ingles.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding>
+            <marker date="1553972015568" expanded="true" signature="6:60" ph="..." />
+            <marker date="1553972015568" expanded="true" signature="87:907" ph="{...}" />
+            <marker date="1553972015568" expanded="true" signature="122:905" ph="{...}" />
+            <marker date="1553972015568" expanded="true" signature="213:300" ph="/// Rellena el diccionario con informacion ... " />
+            <marker date="1553972015568" expanded="true" signature="338:590" ph="{...}" />
+            <marker date="1553972015568" expanded="true" signature="600:773" ph="/// traduce la frase a idioma ingles ... " />
+            <marker date="1553972015568" expanded="true" signature="819:899" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="72" column="62" selection-start-line="72" selection-start-column="62" selection-end-line="72" selection-end-column="62" />
+        <state relative-caret-position="1472">
+          <caret line="78" column="33" lean-forward="true" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
           <folding>
-            <marker date="1553783849316" expanded="false" signature="6:40" ph="..." />
-            <marker date="1553783849316" expanded="true" signature="60:4864" ph="{...}" />
-            <marker date="1553783849316" expanded="true" signature="76:4862" ph="{...}" />
-            <marker date="1553783849316" expanded="true" signature="295:4860" ph="{...}" />
-            <marker date="1553783849316" expanded="true" signature="795:1945" ph="{...}" />
-            <marker date="1553783849316" expanded="true" signature="1983:3388" ph="{...}" />
-            <marker date="1553783849316" expanded="true" signature="3427:4818" ph="{...}" />
+            <marker date="1553972650925" expanded="false" signature="6:40" ph="..." />
+            <marker date="1553972650925" expanded="true" signature="82:8001" ph="{...}" />
+            <marker date="1553972650925" expanded="true" signature="102:7999" ph="{...}" />
+            <marker date="1553972650925" expanded="true" signature="525:1527" ph="{...}" />
+            <marker date="1553972650925" expanded="true" signature="1021:1476" ph="{...}" />
+            <marker date="1553972650925" expanded="true" signature="1570:3044" ph="{...}" />
+            <marker date="1553972650925" expanded="false" signature="2375:2935" ph="{...}" />
+            <marker date="1553972650925" expanded="true" signature="3088:7993" ph="{...}" />
+            <marker date="1553972650925" expanded="true" signature="3657:4871" ph="{...}" />
+            <marker date="1553972650925" expanded="true" signature="4913:6394" ph="{...}" />
+            <marker date="1553972650925" expanded="true" signature="6437:7809" ph="{...}" />
+            <marker date="1553972650925" expanded="true" signature="7851:7943" ph="{...}" />
           </folding>
         </state>
       </provider>

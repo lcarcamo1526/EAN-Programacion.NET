@@ -9,3 +9,14 @@
 /home/condor/EAN-Programacion.NET/Taller7/Taller7/obj/Debug/netcoreapp2.2/Example.AssemblyInfo.cs
 /home/condor/EAN-Programacion.NET/Taller7/Taller7/obj/Debug/netcoreapp2.2/Taller7.dll
 /home/condor/EAN-Programacion.NET/Taller7/Taller7/obj/Debug/netcoreapp2.2/Taller7.pdb
+C:\Users\Laika\EAN-Programacion.NET\Taller7\Taller7\bin\Debug\netcoreapp2.2\Taller7.deps.json
+C:\Users\Laika\EAN-Programacion.NET\Taller7\Taller7\bin\Debug\netcoreapp2.2\Taller7.runtimeconfig.json
+C:\Users\Laika\EAN-Programacion.NET\Taller7\Taller7\bin\Debug\netcoreapp2.2\Taller7.runtimeconfig.dev.json
+C:\Users\Laika\EAN-Programacion.NET\Taller7\Taller7\bin\Debug\netcoreapp2.2\Taller7.dll
+C:\Users\Laika\EAN-Programacion.NET\Taller7\Taller7\bin\Debug\netcoreapp2.2\Taller7.pdb
+C:\Users\Laika\EAN-Programacion.NET\Taller7\Taller7\obj\Debug\netcoreapp2.2\Example.csprojAssemblyReference.cache
+C:\Users\Laika\EAN-Programacion.NET\Taller7\Taller7\obj\Debug\netcoreapp2.2\Example.csproj.CoreCompileInputs.cache
+C:\Users\Laika\EAN-Programacion.NET\Taller7\Taller7\obj\Debug\netcoreapp2.2\Example.AssemblyInfoInputs.cache
+C:\Users\Laika\EAN-Programacion.NET\Taller7\Taller7\obj\Debug\netcoreapp2.2\Example.AssemblyInfo.cs
+C:\Users\Laika\EAN-Programacion.NET\Taller7\Taller7\obj\Debug\netcoreapp2.2\Taller7.dll
+C:\Users\Laika\EAN-Programacion.NET\Taller7\Taller7\obj\Debug\netcoreapp2.2\Taller7.pdb
