@@ -43,6 +43,7 @@ namespace ConsoleApp1 {
                 foreach (var num in code) {
                     answer.Add((num + codeLetter) / 2);
                 }
+
 //                foreach (var elem in answer) {
 //                    Console.WriteLine(elem);
 //                }
@@ -50,6 +51,17 @@ namespace ConsoleApp1 {
             }
 
             return null;
+        }
+
+
+        public string ClearText(List<Double> code) {
+            var answer = "";
+            foreach (var num in code) {
+                answer += Math.Round(num) + "-";
+            }
+
+            answer = answer.Remove(answer.Length - 1);
+            return answer;
         }
     }
 }

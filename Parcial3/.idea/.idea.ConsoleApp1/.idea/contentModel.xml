@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Laika\.Rider2019.1\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Laika\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_ConsoleApp1.-654944775.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Laika\RiderProjects\ConsoleApp1" t="IncludeFlat">
+    <e p="C:\Users\Laika\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_ConsoleApp1.1572827751.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Laika\Documents\EAN-Programacion.NET\Parcial3" t="IncludeFlat">
       <e p="ConsoleApp1" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Coder.cs" t="Include" />

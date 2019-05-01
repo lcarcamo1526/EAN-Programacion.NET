@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Laika\\RiderProjects\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\Laika\\Documents\\EAN-Programacion.NET\\Parcial3\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\Laika\\RiderProjects\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectPath": "C:\\Users\\Laika\\Documents\\EAN-Programacion.NET\\Parcial3\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\Laika\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Laika\\RiderProjects\\ConsoleApp1\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\Laika\\Documents\\EAN-Programacion.NET\\Parcial3\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
