@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -143,8 +144,40 @@ namespace ConsoleApp1 {
         /// </summary>
         /// <param name="code">Original code</param>
         /// <returns>Answer</returns>
-        public string TryDecodeAll(List<Double> code) {
-            return null;
+        public List<Double> TryDecodeAll(List<Double> code) {
+            List<Double> numLetter = new List<double>();
+            var indexLetter = Letter[SelectedLetterDecoder];
+
+            for (var i = 0; i < Nums.Count; i++) {
+                var index = Nums[i];
+                var result = (Letter[index] + indexLetter) / 2;
+                for (var j = 0; j < numLetter.Count; j++) {
+                    var elem = numLetter[j];
+                    var check = result - 0.5;
+                    if (check == elem) {
+                        numLetter.Add(check);
+                        code[code.FindIndex(id => id.Equals(elem))] = check;
+                    }
+                }
+            }
+
+            return code;
         }
+
+//        private List<Double> FindAndReplace(List<Double> InputList, List<Double> OutList) {
+//            for (int i = 0; i < OutList.Count; i++) {
+//                for (var index = 0; index < OutList.Count; index++) {
+//                    var t = OutList[index];
+//                    if (OutList[i] - t == 0.5) {
+//                        OutList[i] = t;
+//                    }
+//                }
+//            }
+//
+//            foreach (var elem in OutList) {
+//                Console.WriteLine(elem);
+//            }
+//
+//            return OutList;
     }
 }
