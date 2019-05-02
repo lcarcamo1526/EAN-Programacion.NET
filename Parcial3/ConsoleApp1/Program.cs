@@ -6,11 +6,15 @@ namespace ConsoleApp1 {
             Coder coder = new Coder();
             coder.FillDictionary();
          
-            var text1 = coder.ConvertTextToNum("casa");
-            coder.selectedLetter = 'l';
+            var text1 = coder.ConvertTextToNum("mona");
+            coder.selectedLetterCoder = 'm';
             var text2 = coder.FormatText(text1);
-            var text3 = coder.ClearText(text2);
-            Console.WriteLine(text3);
+            //var text3 = coder.ClearTextOutput(text2);
+            var text3 = coder.CastNumToText(text2);
+                
+            var text4 = coder.ClearTextInput(text3);
+            coder.selectedLetterDecoder = coder.selectedLetterCoder;
+            Console.WriteLine(coder.ConvertNumToText(text4));
         }
     }
 }

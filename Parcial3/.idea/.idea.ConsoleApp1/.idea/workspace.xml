@@ -6,15 +6,9 @@
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp2.2/ConsoleApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp2.2/ConsoleApp1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp2.2/ConsoleApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp2.2/ConsoleApp1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/ConsoleApp1.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/ConsoleApp1.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/ConsoleApp1.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/ConsoleApp1.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp2.2/ConsoleApp1.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp2.2/ConsoleApp1.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp2.2/ConsoleApp1.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp2.2/ConsoleApp1.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp2.2/ConsoleApp1.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp2.2/ConsoleApp1.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp2.2/ConsoleApp1.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp2.2/ConsoleApp1.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp2.2/ConsoleApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp2.2/ConsoleApp1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp2.2/ConsoleApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp2.2/ConsoleApp1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,11 +22,11 @@
         <entry file="file://$PROJECT_DIR$/ConsoleApp1/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
               <folding>
-                <marker date="1556754133749" expanded="true" signature="37:434" ph="{...}" />
-                <marker date="1556754133749" expanded="true" signature="57:432" ph="{...}" />
-                <marker date="1556754133749" expanded="true" signature="99:426" ph="{...}" />
+                <marker date="1556797175684" expanded="true" signature="37:591" ph="{...}" />
+                <marker date="1556797175684" expanded="true" signature="57:589" ph="{...}" />
+                <marker date="1556797175684" expanded="true" signature="99:583" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -41,24 +35,50 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ConsoleApp1/Coder.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="160">
+              <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
               <folding>
-                <marker date="1556754266263" expanded="true" signature="6:66" ph="..." />
-                <marker date="1556754266263" expanded="true" signature="91:1975" ph="{...}" />
-                <marker date="1556754266263" expanded="true" signature="116:1973" ph="{...}" />
-                <marker date="1556754266263" expanded="true" signature="353:602" ph="{...}" />
-                <marker date="1556754266263" expanded="true" signature="487:592" ph="{...}" />
-                <marker date="1556754266263" expanded="true" signature="663:1150" ph="{...}" />
-                <marker date="1556754266263" expanded="true" signature="784:882" ph="{...}" />
-                <marker date="1556754266263" expanded="true" signature="915:1013" ph="{...}" />
-                <marker date="1556754266263" expanded="true" signature="1056:1112" ph="{...}" />
-                <marker date="1556754266263" expanded="true" signature="1210:1687" ph="{...}" />
-                <marker date="1556754266263" expanded="true" signature="1264:1651" ph="{...}" />
-                <marker date="1556754266263" expanded="true" signature="1414:1489" ph="{...}" />
-                <marker date="1556754266263" expanded="true" signature="1491:1606" ph="/* foreach (var elem in answer) { ... */" />
-                <marker date="1556754266263" expanded="true" signature="1741:1967" ph="{...}" />
-                <marker date="1556754266263" expanded="true" signature="1810:1874" ph="{...}" />
+                <marker date="1556797203669" expanded="true" signature="6:66" ph="..." />
+                <marker date="1556797203669" expanded="true" signature="90:4044" ph="{...}" />
+                <marker date="1556797203669" expanded="true" signature="115:4042" ph="{...}" />
+                <marker date="1556797203669" expanded="true" signature="351:432" ph="/// Feed dictionary with init values ... " />
+                <marker date="1556797203669" expanded="true" signature="470:719" ph="{...}" />
+                <marker date="1556797203669" expanded="true" signature="604:709" ph="{...}" />
+                <marker date="1556797203669" expanded="true" signature="729:894" ph="/// Convert text to num ... " />
+                <marker date="1556797203669" expanded="true" signature="953:1446" ph="{...}" />
+                <marker date="1556797203669" expanded="true" signature="1074:1172" ph="{...}" />
+                <marker date="1556797203669" expanded="true" signature="1205:1303" ph="{...}" />
+                <marker date="1556797203669" expanded="true" signature="1305:1408" ph="/* foreach (var elem in answer) { ... */" />
+                <marker date="1556797203669" expanded="true" signature="1506:1993" ph="{...}" />
+                <marker date="1556797203669" expanded="true" signature="1565:1957" ph="{...}" />
+                <marker date="1556797203669" expanded="true" signature="1720:1795" ph="{...}" />
+                <marker date="1556797203669" expanded="true" signature="1797:1912" ph="/* foreach (var elem in answer) { ... */" />
+                <marker date="1556797203669" expanded="true" signature="2003:2183" ph="/// Cast original nums into string ... " />
+                <marker date="1556797203669" expanded="true" signature="2239:2453" ph="{...}" />
+                <marker date="1556797203669" expanded="true" signature="2308:2360" ph="{...}" />
+                <marker date="1556797203669" expanded="true" signature="2513:2739" ph="{...}" />
+                <marker date="1556797203669" expanded="true" signature="2582:2646" ph="{...}" />
+                <marker date="1556797203669" expanded="true" signature="2750:2940" ph="/// Convert input text into list of double ... " />
+                <marker date="1556797203669" expanded="true" signature="2997:3296" ph="{...}" />
+                <marker date="1556797203669" expanded="true" signature="3137:3257" ph="{...}" />
+                <marker date="1556797203669" expanded="true" signature="3307:3492" ph="/// Convert list of double into string ... " />
+                <marker date="1556797203669" expanded="true" signature="3551:4036" ph="{...}" />
+                <marker date="1556797203669" expanded="true" signature="3612:4000" ph="{...}" />
+                <marker date="1556797203669" expanded="true" signature="3754:3954" ph="{...}" />
+                <marker date="1556797203669" expanded="true" signature="3866:3936" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConsoleApp1/Decoder.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+              <folding>
+                <marker date="1556795520323" expanded="true" signature="22:67" ph="{...}" />
+                <marker date="1556795520323" expanded="true" signature="49:65" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -70,12 +90,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ConsoleApp1/Decoder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConsoleApp1/Coder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConsoleApp1/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/ConsoleApp1/Decoder.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp1/Program.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp1/Coder.cs" />
       </list>
@@ -103,6 +125,20 @@
       <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ConsoleApp1" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ConsoleApp1" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ConsoleApp1" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
         <option name="show-all-files" value="false" />
       </pane>
     </panes>
@@ -158,12 +194,12 @@
       <option name="presentableId" value="Default" />
       <updated>1556746797656</updated>
       <workItem from="1556746799083" duration="5448000" />
-      <workItem from="1556752828805" duration="1422000" />
+      <workItem from="1556752828805" duration="4372000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6870000" />
+    <option name="totallyTimeSpent" value="9820000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -219,38 +255,62 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ConsoleApp1/Decoder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding>
+            <marker date="1556795520323" expanded="true" signature="22:67" ph="{...}" />
+            <marker date="1556795520323" expanded="true" signature="49:65" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ConsoleApp1/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
           <folding>
-            <marker date="1556754133749" expanded="true" signature="37:434" ph="{...}" />
-            <marker date="1556754133749" expanded="true" signature="57:432" ph="{...}" />
-            <marker date="1556754133749" expanded="true" signature="99:426" ph="{...}" />
+            <marker date="1556797175684" expanded="true" signature="37:591" ph="{...}" />
+            <marker date="1556797175684" expanded="true" signature="57:589" ph="{...}" />
+            <marker date="1556797175684" expanded="true" signature="99:583" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ConsoleApp1/Coder.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="160">
+          <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
           <folding>
-            <marker date="1556754266263" expanded="true" signature="6:66" ph="..." />
-            <marker date="1556754266263" expanded="true" signature="91:1975" ph="{...}" />
-            <marker date="1556754266263" expanded="true" signature="116:1973" ph="{...}" />
-            <marker date="1556754266263" expanded="true" signature="353:602" ph="{...}" />
-            <marker date="1556754266263" expanded="true" signature="487:592" ph="{...}" />
-            <marker date="1556754266263" expanded="true" signature="663:1150" ph="{...}" />
-            <marker date="1556754266263" expanded="true" signature="784:882" ph="{...}" />
-            <marker date="1556754266263" expanded="true" signature="915:1013" ph="{...}" />
-            <marker date="1556754266263" expanded="true" signature="1056:1112" ph="{...}" />
-            <marker date="1556754266263" expanded="true" signature="1210:1687" ph="{...}" />
-            <marker date="1556754266263" expanded="true" signature="1264:1651" ph="{...}" />
-            <marker date="1556754266263" expanded="true" signature="1414:1489" ph="{...}" />
-            <marker date="1556754266263" expanded="true" signature="1491:1606" ph="/* foreach (var elem in answer) { ... */" />
-            <marker date="1556754266263" expanded="true" signature="1741:1967" ph="{...}" />
-            <marker date="1556754266263" expanded="true" signature="1810:1874" ph="{...}" />
+            <marker date="1556797203669" expanded="true" signature="6:66" ph="..." />
+            <marker date="1556797203669" expanded="true" signature="90:4044" ph="{...}" />
+            <marker date="1556797203669" expanded="true" signature="115:4042" ph="{...}" />
+            <marker date="1556797203669" expanded="true" signature="351:432" ph="/// Feed dictionary with init values ... " />
+            <marker date="1556797203669" expanded="true" signature="470:719" ph="{...}" />
+            <marker date="1556797203669" expanded="true" signature="604:709" ph="{...}" />
+            <marker date="1556797203669" expanded="true" signature="729:894" ph="/// Convert text to num ... " />
+            <marker date="1556797203669" expanded="true" signature="953:1446" ph="{...}" />
+            <marker date="1556797203669" expanded="true" signature="1074:1172" ph="{...}" />
+            <marker date="1556797203669" expanded="true" signature="1205:1303" ph="{...}" />
+            <marker date="1556797203669" expanded="true" signature="1305:1408" ph="/* foreach (var elem in answer) { ... */" />
+            <marker date="1556797203669" expanded="true" signature="1506:1993" ph="{...}" />
+            <marker date="1556797203669" expanded="true" signature="1565:1957" ph="{...}" />
+            <marker date="1556797203669" expanded="true" signature="1720:1795" ph="{...}" />
+            <marker date="1556797203669" expanded="true" signature="1797:1912" ph="/* foreach (var elem in answer) { ... */" />
+            <marker date="1556797203669" expanded="true" signature="2003:2183" ph="/// Cast original nums into string ... " />
+            <marker date="1556797203669" expanded="true" signature="2239:2453" ph="{...}" />
+            <marker date="1556797203669" expanded="true" signature="2308:2360" ph="{...}" />
+            <marker date="1556797203669" expanded="true" signature="2513:2739" ph="{...}" />
+            <marker date="1556797203669" expanded="true" signature="2582:2646" ph="{...}" />
+            <marker date="1556797203669" expanded="true" signature="2750:2940" ph="/// Convert input text into list of double ... " />
+            <marker date="1556797203669" expanded="true" signature="2997:3296" ph="{...}" />
+            <marker date="1556797203669" expanded="true" signature="3137:3257" ph="{...}" />
+            <marker date="1556797203669" expanded="true" signature="3307:3492" ph="/// Convert list of double into string ... " />
+            <marker date="1556797203669" expanded="true" signature="3551:4036" ph="{...}" />
+            <marker date="1556797203669" expanded="true" signature="3612:4000" ph="{...}" />
+            <marker date="1556797203669" expanded="true" signature="3754:3954" ph="{...}" />
+            <marker date="1556797203669" expanded="true" signature="3866:3936" ph="{...}" />
           </folding>
         </state>
       </provider>
