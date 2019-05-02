@@ -60,6 +60,7 @@ namespace ConsoleApp1 {
 //                foreach (var elem in answer) {
 //                    Console.WriteLine(elem);
 //                }
+
                 return answer;
             }
 
@@ -98,17 +99,29 @@ namespace ConsoleApp1 {
         }
 
 
+        public List<Double> ClearOutput(List<Double> code) {
+            var copy = code;
+            for (int i = 0; i < copy.Count; i++) {
+                copy[i] = Math.Floor(copy[i]);
+//                Console.WriteLine(copy[i]);
+            }
+
+            return copy;
+        }
+
+
         /// <summary>
         /// Convert input text into list of double
         /// </summary>
         /// <param name="text">string </param>
         /// <returns>Converted list of double</returns>
         public List<Double> ClearTextInput(string text) {
-            var editedText = text.Split("-");
+            var editedText = text.Trim().Split("-");
             var answer = new List<double>();
             foreach (var elem in editedText) {
                 double.TryParse(elem, out var strToDouble);
                 answer.Add(strToDouble);
+                Console.WriteLine(strToDouble);
             }
 
 
@@ -121,7 +134,7 @@ namespace ConsoleApp1 {
         /// </summary>
         /// <param name="code">List of double</param>
         /// <returns>converted string</returns>
-        public string ConvertNumToText(List<Double> code) {
+        public string DecodeGeneral(List<Double> code) {
             if (Letter.ContainsKey(SelectedLetterDecoder)) {
                 var indexLetter = Letter[SelectedLetterDecoder];
                 var answer = "";
@@ -130,6 +143,21 @@ namespace ConsoleApp1 {
                     if (Nums.ContainsKey(indexLetter)) {
                         answer += Nums[index];
                     }
+                }
+
+                return answer;
+            }
+
+            return null;
+        }
+
+        public List<Double> Decode(List<Double> code) {
+            if (Letter.ContainsKey(SelectedLetterDecoder)) {
+                var indexLetter = Letter[SelectedLetterDecoder];
+                List<Double> answer = new List<double>();
+                foreach (var num in code) {
+                    var index = 2 * num - indexLetter;
+                    answer.Add(index);
                 }
 
                 return answer;
@@ -147,37 +175,18 @@ namespace ConsoleApp1 {
         public List<Double> TryDecodeAll(List<Double> code) {
             List<Double> numLetter = new List<double>();
             var indexLetter = Letter[SelectedLetterDecoder];
-
-            for (var i = 0; i < Nums.Count; i++) {
-                var index = Nums[i];
-                var result = (Letter[index] + indexLetter) / 2;
-                for (var j = 0; j < numLetter.Count; j++) {
-                    var elem = numLetter[j];
-                    var check = result - 0.5;
-                    if (check == elem) {
-                        numLetter.Add(check);
-                        code[code.FindIndex(id => id.Equals(elem))] = check;
-                    }
+            var possibleCombination = new List<Double>();
+            for (int i = 0; i < Nums.Count; i++) {
+                var letterIndex = Nums[i];
+                
+                foreach (var num in code) {
+                    var check = (Letter[letterIndex] + indexLetter) / 2;
+                    possibleCombination.Add(check);
+                    Console.WriteLine(check);
                 }
             }
 
             return code;
         }
-
-//        private List<Double> FindAndReplace(List<Double> InputList, List<Double> OutList) {
-//            for (int i = 0; i < OutList.Count; i++) {
-//                for (var index = 0; index < OutList.Count; index++) {
-//                    var t = OutList[index];
-//                    if (OutList[i] - t == 0.5) {
-//                        OutList[i] = t;
-//                    }
-//                }
-//            }
-//
-//            foreach (var elem in OutList) {
-//                Console.WriteLine(elem);
-//            }
-//
-//            return OutList;
     }
 }
