@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58d4fe07-277e-4116-921c-da6638f9b6dd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/Coder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/Coder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp2.2/ConsoleApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp2.2/ConsoleApp1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp2.2/ConsoleApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp2.2/ConsoleApp1.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp2.2/ConsoleApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp2.2/ConsoleApp1.dll" afterDir="false" />
@@ -37,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ConsoleApp1/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
+            <state relative-caret-position="105">
               <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
               <folding>
                 <marker date="1556823072663" expanded="true" signature="37:539" ph="{...}" />
@@ -51,48 +51,48 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ConsoleApp1/Coder.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="179" column="42" lean-forward="true" selection-start-line="179" selection-start-column="42" selection-end-line="179" selection-end-column="42" />
+            <state relative-caret-position="60">
+              <caret line="179" column="42" selection-start-line="179" selection-start-column="42" selection-end-line="179" selection-end-column="42" />
               <folding>
-                <marker date="1556823373977" expanded="false" signature="6:92" ph="..." />
-                <marker date="1556823373977" expanded="true" signature="116:6109" ph="{...}" />
-                <marker date="1556823373977" expanded="true" signature="141:6107" ph="{...}" />
-                <marker date="1556823373977" expanded="true" signature="377:458" ph="/// Feed dictionary with init values ... " />
-                <marker date="1556823373977" expanded="true" signature="496:741" ph="{...}" />
-                <marker date="1556823373977" expanded="true" signature="628:731" ph="{...}" />
-                <marker date="1556823373977" expanded="true" signature="751:916" ph="/// Convert text to num ... " />
-                <marker date="1556823373977" expanded="true" signature="975:1466" ph="{...}" />
-                <marker date="1556823373977" expanded="true" signature="1095:1192" ph="{...}" />
-                <marker date="1556823373977" expanded="true" signature="1225:1323" ph="{...}" />
-                <marker date="1556823373977" expanded="true" signature="1325:1428" ph="/* foreach (var elem in answer) { ... */" />
-                <marker date="1556823373977" expanded="true" signature="1477:1664" ph="/// Format nums into modified doubles ... " />
-                <marker date="1556823373977" expanded="true" signature="1723:2211" ph="{...}" />
-                <marker date="1556823373977" expanded="true" signature="1782:2175" ph="{...}" />
-                <marker date="1556823373977" expanded="true" signature="1937:2012" ph="{...}" />
-                <marker date="1556823373977" expanded="true" signature="2014:2129" ph="/* foreach (var elem in answer) { ... */" />
-                <marker date="1556823373977" expanded="true" signature="2221:2401" ph="/// Cast original nums into string ... " />
-                <marker date="1556823373977" expanded="true" signature="2457:2671" ph="{...}" />
-                <marker date="1556823373977" expanded="true" signature="2526:2578" ph="{...}" />
-                <marker date="1556823373977" expanded="true" signature="2682:2873" ph="/// Cast a list of double into cleaned string ... " />
-                <marker date="1556823373977" expanded="true" signature="2931:3157" ph="{...}" />
-                <marker date="1556823373977" expanded="true" signature="3000:3064" ph="{...}" />
-                <marker date="1556823373977" expanded="true" signature="3219:3443" ph="{...}" />
-                <marker date="1556823373977" expanded="true" signature="3299:3407" ph="{...}" />
-                <marker date="1556823373977" expanded="true" signature="3454:3644" ph="/// Convert input text into list of double ... " />
-                <marker date="1556823373977" expanded="true" signature="3701:4049" ph="{...}" />
-                <marker date="1556823373977" expanded="true" signature="3846:4010" ph="{...}" />
-                <marker date="1556823373977" expanded="true" signature="4060:4245" ph="/// Convert list of double into string ... " />
-                <marker date="1556823373977" expanded="true" signature="4301:4786" ph="{...}" />
-                <marker date="1556823373977" expanded="true" signature="4362:4750" ph="{...}" />
-                <marker date="1556823373977" expanded="true" signature="4504:4704" ph="{...}" />
-                <marker date="1556823373977" expanded="true" signature="4616:4686" ph="{...}" />
-                <marker date="1556823373977" expanded="true" signature="4842:5265" ph="{...}" />
-                <marker date="1556823373977" expanded="true" signature="4903:5229" ph="{...}" />
-                <marker date="1556823373977" expanded="true" signature="5070:5183" ph="{...}" />
-                <marker date="1556823373977" expanded="true" signature="5276:5469" ph="/// Try to decode all decimals according the index letter ... " />
-                <marker date="1556823373977" expanded="true" signature="5530:6101" ph="{...}" />
-                <marker date="1556823373977" expanded="true" signature="5757:6065" ph="{...}" />
-                <marker date="1556823373977" expanded="true" signature="5861:6051" ph="{...}" />
+                <marker date="1556829064529" expanded="false" signature="6:92" ph="..." />
+                <marker date="1556829064529" expanded="true" signature="116:6084" ph="{...}" />
+                <marker date="1556829064529" expanded="true" signature="141:6082" ph="{...}" />
+                <marker date="1556829064529" expanded="true" signature="377:458" ph="/// Feed dictionary with init values ... " />
+                <marker date="1556829064529" expanded="true" signature="496:741" ph="{...}" />
+                <marker date="1556829064529" expanded="true" signature="628:731" ph="{...}" />
+                <marker date="1556829064529" expanded="true" signature="751:916" ph="/// Convert text to num ... " />
+                <marker date="1556829064529" expanded="true" signature="975:1466" ph="{...}" />
+                <marker date="1556829064529" expanded="true" signature="1095:1192" ph="{...}" />
+                <marker date="1556829064529" expanded="true" signature="1225:1323" ph="{...}" />
+                <marker date="1556829064529" expanded="true" signature="1325:1428" ph="/* foreach (var elem in answer) { ... */" />
+                <marker date="1556829064529" expanded="true" signature="1477:1664" ph="/// Format nums into modified doubles ... " />
+                <marker date="1556829064529" expanded="true" signature="1723:2211" ph="{...}" />
+                <marker date="1556829064529" expanded="true" signature="1782:2175" ph="{...}" />
+                <marker date="1556829064529" expanded="true" signature="1937:2012" ph="{...}" />
+                <marker date="1556829064529" expanded="true" signature="2014:2129" ph="/* foreach (var elem in answer) { ... */" />
+                <marker date="1556829064529" expanded="true" signature="2221:2401" ph="/// Cast original nums into string ... " />
+                <marker date="1556829064529" expanded="true" signature="2457:2671" ph="{...}" />
+                <marker date="1556829064529" expanded="true" signature="2526:2578" ph="{...}" />
+                <marker date="1556829064529" expanded="true" signature="2682:2873" ph="/// Cast a list of double into cleaned string ... " />
+                <marker date="1556829064529" expanded="true" signature="2931:3157" ph="{...}" />
+                <marker date="1556829064529" expanded="true" signature="3000:3064" ph="{...}" />
+                <marker date="1556829064529" expanded="true" signature="3219:3443" ph="{...}" />
+                <marker date="1556829064529" expanded="true" signature="3299:3407" ph="{...}" />
+                <marker date="1556829064529" expanded="true" signature="3454:3644" ph="/// Convert input text into list of double ... " />
+                <marker date="1556829064529" expanded="true" signature="3701:4049" ph="{...}" />
+                <marker date="1556829064529" expanded="true" signature="3846:4010" ph="{...}" />
+                <marker date="1556829064529" expanded="true" signature="4060:4245" ph="/// Convert list of double into string ... " />
+                <marker date="1556829064529" expanded="true" signature="4301:4786" ph="{...}" />
+                <marker date="1556829064529" expanded="true" signature="4362:4750" ph="{...}" />
+                <marker date="1556829064529" expanded="true" signature="4504:4704" ph="{...}" />
+                <marker date="1556829064529" expanded="true" signature="4616:4686" ph="{...}" />
+                <marker date="1556829064529" expanded="true" signature="4842:5265" ph="{...}" />
+                <marker date="1556829064529" expanded="true" signature="4903:5229" ph="{...}" />
+                <marker date="1556829064529" expanded="true" signature="5070:5183" ph="{...}" />
+                <marker date="1556829064529" expanded="true" signature="5276:5469" ph="/// Try to decode all decimals according the index letter ... " />
+                <marker date="1556829064529" expanded="true" signature="5530:6076" ph="{...}" />
+                <marker date="1556829064529" expanded="true" signature="5757:6040" ph="{...}" />
+                <marker date="1556829064529" expanded="true" signature="5909:6026" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -150,30 +150,10 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="SolutionExplorer" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="FileSystemExplorer" />
-      <pane id="AssemblyExplorer" />
-      <pane id="SolutionExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ConsoleApp1" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ConsoleApp1" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ConsoleApp1" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-all-files" value="false" />
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -227,12 +207,13 @@
       <updated>1556746797656</updated>
       <workItem from="1556746799083" duration="5448000" />
       <workItem from="1556752828805" duration="16190000" />
-      <workItem from="1556817046513" duration="5925000" />
+      <workItem from="1556817046513" duration="6051000" />
+      <workItem from="1556826904832" duration="1420000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27563000" />
+    <option name="totallyTimeSpent" value="29109000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -253,7 +234,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32911393" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978904" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -313,6 +294,18 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ConsoleApp1/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
+          <folding>
+            <marker date="1556823072663" expanded="true" signature="37:539" ph="{...}" />
+            <marker date="1556823072663" expanded="true" signature="57:537" ph="{...}" />
+            <marker date="1556823072663" expanded="true" signature="99:522" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ConsoleApp1/Decoder.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -324,62 +317,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ConsoleApp1/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
-          <folding>
-            <marker date="1556823072663" expanded="true" signature="37:539" ph="{...}" />
-            <marker date="1556823072663" expanded="true" signature="57:537" ph="{...}" />
-            <marker date="1556823072663" expanded="true" signature="99:522" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ConsoleApp1/Coder.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="179" column="42" lean-forward="true" selection-start-line="179" selection-start-column="42" selection-end-line="179" selection-end-column="42" />
+        <state relative-caret-position="60">
+          <caret line="179" column="42" selection-start-line="179" selection-start-column="42" selection-end-line="179" selection-end-column="42" />
           <folding>
-            <marker date="1556823373977" expanded="false" signature="6:92" ph="..." />
-            <marker date="1556823373977" expanded="true" signature="116:6109" ph="{...}" />
-            <marker date="1556823373977" expanded="true" signature="141:6107" ph="{...}" />
-            <marker date="1556823373977" expanded="true" signature="377:458" ph="/// Feed dictionary with init values ... " />
-            <marker date="1556823373977" expanded="true" signature="496:741" ph="{...}" />
-            <marker date="1556823373977" expanded="true" signature="628:731" ph="{...}" />
-            <marker date="1556823373977" expanded="true" signature="751:916" ph="/// Convert text to num ... " />
-            <marker date="1556823373977" expanded="true" signature="975:1466" ph="{...}" />
-            <marker date="1556823373977" expanded="true" signature="1095:1192" ph="{...}" />
-            <marker date="1556823373977" expanded="true" signature="1225:1323" ph="{...}" />
-            <marker date="1556823373977" expanded="true" signature="1325:1428" ph="/* foreach (var elem in answer) { ... */" />
-            <marker date="1556823373977" expanded="true" signature="1477:1664" ph="/// Format nums into modified doubles ... " />
-            <marker date="1556823373977" expanded="true" signature="1723:2211" ph="{...}" />
-            <marker date="1556823373977" expanded="true" signature="1782:2175" ph="{...}" />
-            <marker date="1556823373977" expanded="true" signature="1937:2012" ph="{...}" />
-            <marker date="1556823373977" expanded="true" signature="2014:2129" ph="/* foreach (var elem in answer) { ... */" />
-            <marker date="1556823373977" expanded="true" signature="2221:2401" ph="/// Cast original nums into string ... " />
-            <marker date="1556823373977" expanded="true" signature="2457:2671" ph="{...}" />
-            <marker date="1556823373977" expanded="true" signature="2526:2578" ph="{...}" />
-            <marker date="1556823373977" expanded="true" signature="2682:2873" ph="/// Cast a list of double into cleaned string ... " />
-            <marker date="1556823373977" expanded="true" signature="2931:3157" ph="{...}" />
-            <marker date="1556823373977" expanded="true" signature="3000:3064" ph="{...}" />
-            <marker date="1556823373977" expanded="true" signature="3219:3443" ph="{...}" />
-            <marker date="1556823373977" expanded="true" signature="3299:3407" ph="{...}" />
-            <marker date="1556823373977" expanded="true" signature="3454:3644" ph="/// Convert input text into list of double ... " />
-            <marker date="1556823373977" expanded="true" signature="3701:4049" ph="{...}" />
-            <marker date="1556823373977" expanded="true" signature="3846:4010" ph="{...}" />
-            <marker date="1556823373977" expanded="true" signature="4060:4245" ph="/// Convert list of double into string ... " />
-            <marker date="1556823373977" expanded="true" signature="4301:4786" ph="{...}" />
-            <marker date="1556823373977" expanded="true" signature="4362:4750" ph="{...}" />
-            <marker date="1556823373977" expanded="true" signature="4504:4704" ph="{...}" />
-            <marker date="1556823373977" expanded="true" signature="4616:4686" ph="{...}" />
-            <marker date="1556823373977" expanded="true" signature="4842:5265" ph="{...}" />
-            <marker date="1556823373977" expanded="true" signature="4903:5229" ph="{...}" />
-            <marker date="1556823373977" expanded="true" signature="5070:5183" ph="{...}" />
-            <marker date="1556823373977" expanded="true" signature="5276:5469" ph="/// Try to decode all decimals according the index letter ... " />
-            <marker date="1556823373977" expanded="true" signature="5530:6101" ph="{...}" />
-            <marker date="1556823373977" expanded="true" signature="5757:6065" ph="{...}" />
-            <marker date="1556823373977" expanded="true" signature="5861:6051" ph="{...}" />
+            <marker date="1556829064529" expanded="false" signature="6:92" ph="..." />
+            <marker date="1556829064529" expanded="true" signature="116:6084" ph="{...}" />
+            <marker date="1556829064529" expanded="true" signature="141:6082" ph="{...}" />
+            <marker date="1556829064529" expanded="true" signature="377:458" ph="/// Feed dictionary with init values ... " />
+            <marker date="1556829064529" expanded="true" signature="496:741" ph="{...}" />
+            <marker date="1556829064529" expanded="true" signature="628:731" ph="{...}" />
+            <marker date="1556829064529" expanded="true" signature="751:916" ph="/// Convert text to num ... " />
+            <marker date="1556829064529" expanded="true" signature="975:1466" ph="{...}" />
+            <marker date="1556829064529" expanded="true" signature="1095:1192" ph="{...}" />
+            <marker date="1556829064529" expanded="true" signature="1225:1323" ph="{...}" />
+            <marker date="1556829064529" expanded="true" signature="1325:1428" ph="/* foreach (var elem in answer) { ... */" />
+            <marker date="1556829064529" expanded="true" signature="1477:1664" ph="/// Format nums into modified doubles ... " />
+            <marker date="1556829064529" expanded="true" signature="1723:2211" ph="{...}" />
+            <marker date="1556829064529" expanded="true" signature="1782:2175" ph="{...}" />
+            <marker date="1556829064529" expanded="true" signature="1937:2012" ph="{...}" />
+            <marker date="1556829064529" expanded="true" signature="2014:2129" ph="/* foreach (var elem in answer) { ... */" />
+            <marker date="1556829064529" expanded="true" signature="2221:2401" ph="/// Cast original nums into string ... " />
+            <marker date="1556829064529" expanded="true" signature="2457:2671" ph="{...}" />
+            <marker date="1556829064529" expanded="true" signature="2526:2578" ph="{...}" />
+            <marker date="1556829064529" expanded="true" signature="2682:2873" ph="/// Cast a list of double into cleaned string ... " />
+            <marker date="1556829064529" expanded="true" signature="2931:3157" ph="{...}" />
+            <marker date="1556829064529" expanded="true" signature="3000:3064" ph="{...}" />
+            <marker date="1556829064529" expanded="true" signature="3219:3443" ph="{...}" />
+            <marker date="1556829064529" expanded="true" signature="3299:3407" ph="{...}" />
+            <marker date="1556829064529" expanded="true" signature="3454:3644" ph="/// Convert input text into list of double ... " />
+            <marker date="1556829064529" expanded="true" signature="3701:4049" ph="{...}" />
+            <marker date="1556829064529" expanded="true" signature="3846:4010" ph="{...}" />
+            <marker date="1556829064529" expanded="true" signature="4060:4245" ph="/// Convert list of double into string ... " />
+            <marker date="1556829064529" expanded="true" signature="4301:4786" ph="{...}" />
+            <marker date="1556829064529" expanded="true" signature="4362:4750" ph="{...}" />
+            <marker date="1556829064529" expanded="true" signature="4504:4704" ph="{...}" />
+            <marker date="1556829064529" expanded="true" signature="4616:4686" ph="{...}" />
+            <marker date="1556829064529" expanded="true" signature="4842:5265" ph="{...}" />
+            <marker date="1556829064529" expanded="true" signature="4903:5229" ph="{...}" />
+            <marker date="1556829064529" expanded="true" signature="5070:5183" ph="{...}" />
+            <marker date="1556829064529" expanded="true" signature="5276:5469" ph="/// Try to decode all decimals according the index letter ... " />
+            <marker date="1556829064529" expanded="true" signature="5530:6076" ph="{...}" />
+            <marker date="1556829064529" expanded="true" signature="5757:6040" ph="{...}" />
+            <marker date="1556829064529" expanded="true" signature="5909:6026" ph="{...}" />
           </folding>
         </state>
       </provider>

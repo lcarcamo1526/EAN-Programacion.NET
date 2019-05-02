@@ -178,9 +178,8 @@ namespace ConsoleApp1 {
             var possibleCombination = new List<Double>();
             for (int i = 0; i < Nums.Count; i++) {
                 var letterIndex = Nums[i];
-                
-                foreach (var num in code) {
-                    var check = (Letter[letterIndex] + indexLetter) / 2;
+                var check = (Letter[letterIndex] + indexLetter) / 2;
+                if (check % 1 == 0.5) {
                     possibleCombination.Add(check);
                     Console.WriteLine(check);
                 }
