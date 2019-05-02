@@ -6,17 +6,17 @@ namespace ConsoleApp1 {
     public class Coder {
         public Dictionary<char, double> Letter = new Dictionary<char, double>();
         public Dictionary<double, char> Nums = new Dictionary<double, char>();
-        public char selectedLetterCoder, selectedLetterDecoder;
+        public char SelectedLetterCoder, SelectedLetterDecoder;
 
 
         /// <summary>
         /// Feed dictionary with init values
         /// </summary>
         public void FillDictionary() {
-            var str_letter = "-abcdefghijklmnñopqrstuvwxyz ".ToCharArray();
-            for (int i = 0; i < str_letter.Length; i++) {
-                Letter.Add(str_letter[i], i);
-                Nums.Add(i, str_letter[i]);
+            var strLetter = "-abcdefghijklmnñopqrstuvwxyz ".ToCharArray();
+            for (int i = 0; i < strLetter.Length; i++) {
+                Letter.Add(strLetter[i], i);
+                Nums.Add(i, strLetter[i]);
             }
         }
 
@@ -27,9 +27,9 @@ namespace ConsoleApp1 {
         /// <returns>Convertion</returns>
         public List<double> ConvertTextToNum(string text) {
             var answer = new List<double>();
-            var user_text = text.ToLower().ToCharArray();
+            var userText = text.ToLower().ToCharArray();
             try {
-                answer.AddRange(user_text.Select(character => Letter[character]));
+                answer.AddRange(userText.Select(character => Letter[character]));
             }
             catch (Exception e) {
                 Console.WriteLine("The text has not value in the num dictionary");
@@ -42,10 +42,16 @@ namespace ConsoleApp1 {
             return answer;
         }
 
+
+        /// <summary>
+        /// Format nums into modified doubles
+        /// </summary>
+        /// <param name="code"> Original doubles</param>
+        /// <returns>Modified doubles</returns>
         public List<double> FormatText(List<double> code) {
-            if (Letter.ContainsKey(selectedLetterCoder)) {
+            if (Letter.ContainsKey(SelectedLetterCoder)) {
                 var answer = new List<double>();
-                var codeLetter = Letter[selectedLetterCoder];
+                var codeLetter = Letter[SelectedLetterCoder];
                 foreach (var num in code) {
                     answer.Add((num + codeLetter) / 2);
                 }
@@ -75,6 +81,11 @@ namespace ConsoleApp1 {
         }
 
 
+        /// <summary>
+        /// Cast a list of double into cleaned string
+        /// </summary>
+        /// <param name="code">original list</param>
+        /// <returns>converted string</returns>
         public string ClearTextOutput(List<Double> code) {
             var answer = "";
             foreach (var num in code) {
@@ -92,11 +103,11 @@ namespace ConsoleApp1 {
         /// <param name="text">string </param>
         /// <returns>Converted list of double</returns>
         public List<Double> ClearTextInput(string text) {
-            var edited_text = text.Split("-");
+            var editedText = text.Split("-");
             var answer = new List<double>();
-            foreach (var elem in edited_text) {
-                double.TryParse(elem, out var str_to_double);
-                answer.Add(str_to_double);
+            foreach (var elem in editedText) {
+                double.TryParse(elem, out var strToDouble);
+                answer.Add(strToDouble);
             }
 
 
@@ -110,8 +121,8 @@ namespace ConsoleApp1 {
         /// <param name="code">List of double</param>
         /// <returns>converted string</returns>
         public string ConvertNumToText(List<Double> code) {
-            if (Letter.ContainsKey(selectedLetterDecoder)) {
-                var indexLetter = Letter[selectedLetterDecoder];
+            if (Letter.ContainsKey(SelectedLetterDecoder)) {
+                var indexLetter = Letter[SelectedLetterDecoder];
                 var answer = "";
                 foreach (var num in code) {
                     var index = 2 * num - indexLetter;
@@ -123,6 +134,16 @@ namespace ConsoleApp1 {
                 return answer;
             }
 
+            return null;
+        }
+
+
+        /// <summary>
+        /// Try to decode all decimals according the index letter
+        /// </summary>
+        /// <param name="code">Original code</param>
+        /// <returns>Answer</returns>
+        public string TryDecodeAll(List<Double> code) {
             return null;
         }
     }

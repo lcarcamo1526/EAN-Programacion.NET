@@ -7,13 +7,13 @@ namespace ConsoleApp1 {
             coder.FillDictionary();
          
             var text1 = coder.ConvertTextToNum("mona");
-            coder.selectedLetterCoder = 'm';
+            coder.SelectedLetterCoder = 'm';
             var text2 = coder.FormatText(text1);
             //var text3 = coder.ClearTextOutput(text2);
             var text3 = coder.CastNumToText(text2);
                 
             var text4 = coder.ClearTextInput(text3);
-            coder.selectedLetterDecoder = coder.selectedLetterCoder;
+            coder.SelectedLetterDecoder = coder.SelectedLetterCoder;
             Console.WriteLine(coder.ConvertNumToText(text4));
         }
     }
