@@ -7,15 +7,9 @@ namespace ConsoleApp1 {
             coder.FillDictionary();
             coder.SelectedLetterCoder = coder.SelectedLetterDecoder ='m';
 
-         
-            var text1 = coder.ConvertTextToNum("paol");
-            var text2 = coder.FormatText(text1);
-            var text3 = coder.ClearOutput(text2);
-            var tex4 = coder.TryDecodeAll(text3);
-
-
-
-            //coder.TryDecodeAll(text2);
+            var text3 = coder.Encode("Amnsterdan");
+            var text4 = coder.Decode(text3);
+            Console.WriteLine(text4);
 
 
 
