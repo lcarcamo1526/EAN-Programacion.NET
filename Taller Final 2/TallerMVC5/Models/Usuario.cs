@@ -18,14 +18,24 @@ namespace TallerMVC5.Models
 
         public Dictionary<String, double> CalcularSalario() {
             var dict = new Dictionary<String, double>();
-            if (Numero_horas != 0 && Valor_horas != 0 && Riesgo != 0)
+            if (Numero_horas == 0 && Valor_horas == 0 && Riesgo == 0)
             {
+                dict["riesgo"] = 0;
+                dict["salud"] = 0;
+                dict["descuentos"] = 0;
+                dict["pension"] = 0;
+                dict["bruto"] = 0;
+                dict["diferencia"] = 0;
+                return dict;
 
+
+            }
+            else {
                 dict.Add("bruto", Math.Abs(Numero_horas * Valor_horas));
                 dict.Add("salud", Math.Abs((dict["bruto"] * 14.5)) / 100);
                 dict.Add("pension", Math.Abs((dict["bruto"] * 12.6)) / 100);
 
-                if (Math.Abs(Riesgo) == 1)
+                if (Math.Abs(Riesgo) <= 1)
                     dict["riesgo"] = dict["bruto"] * 0.05;
                 else if (Math.Abs(Riesgo) == 2)
                     dict["riesgo"] = dict["bruto"] * 0.14;
@@ -35,16 +45,6 @@ namespace TallerMVC5.Models
                 dict.Add("descuentos", Math.Abs(dict["riesgo"] + dict["pension"] + dict["salud"]));
                 dict.Add("diferencia", Math.Abs(dict["bruto"] - dict["descuentos"]));
 
-                return dict;
-
-            }
-            else {
-                dict["riesgo"] = 0;
-                dict["salud"] = 0;
-                dict["descuentos"] = 0;
-                dict["pension"] = 0;
-                dict["bruto"] = 0;
-                dict["diferencia"] = 0;
                 return dict;
             }
             

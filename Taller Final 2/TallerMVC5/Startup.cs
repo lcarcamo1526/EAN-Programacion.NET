@@ -57,7 +57,7 @@ namespace TallerMVC5
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Usuario}/{id?}");
+                    template: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }

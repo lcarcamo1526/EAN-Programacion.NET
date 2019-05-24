@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewData["Title"] = "Resultados";
+}
+
+<h1>Resultados</h1>
+@{
+    Calificaciones calificaciones = new Calificaciones();
+    
+    calificaciones.Nota1 = ViewData["Nota1"] != null ? (int)ViewData["Nota1"]:0;
+    calificaciones.Nota2 = ViewData["Nota2"] != null ? (int)ViewData["Nota2"]:0;
+    calificaciones.Nota3 = ViewData["Nota3"] != null ? (int)ViewData["Nota3"]:0;
+
+    var ans1 = calificaciones.Nota1 * 0.3;
+    var ans2 = calificaciones.Nota2 * 0.3;
+    var ans3 = calificaciones.Nota3 * 0.4;
+}
+<p>De acuerdo a los datos ingresados:</p>
+<strong>Nombre del estudiante</strong> : @ViewData["Nombre_Estudiante"]<br />
+<strong>Apellido del estudiante</strong> : @ViewData["Apellido_Estudiante"]<br />
+<strong>Nota1</strong> : @Math.Abs(calificaciones.Nota1)  Resultado: @ans1/30 <br />
+<strong>Nota2</strong> : @Math.Abs(calificaciones.Nota2)  Resultado: @ans2/30 <br />
+<strong>Nota3</strong> : @Math.Abs(calificaciones.Nota3)  Resultado: @ans3/40 <br />
+<strong>Nota defintiva: @calificaciones.DeterminarDefinitiva()</strong>
+
+

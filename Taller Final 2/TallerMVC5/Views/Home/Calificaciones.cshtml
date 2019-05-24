@@ -1,0 +1,49 @@
+﻿@model TallerMVC5.Models.Calificaciones
+
+@{
+    ViewData["Title"] = "Calificaciones";
+}
+
+<h1>Calificaciones</h1>
+
+<p>Estimado usuario por favor ingrese los siguientes datos: </p>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Calificaciones">
+
+
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Nombre_Estudiante" class="control-label"></label>
+                    <input asp-for="Nombre_Estudiante" class="form-control" />
+                    <span asp-validation-for="Nombre_Estudiante" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Apellido_Estudiante" class="control-label"></label>
+                    <input asp-for="Apellido_Estudiante" class="form-control" />
+                    <span asp-validation-for="Apellido_Estudiante" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Nota1" class="control-label"></label>
+                    <input asp-for="Nota1" class="form-control" />
+                    <span asp-validation-for="Nota1" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Nota2" class="control-label"></label>
+                    <input asp-for="Nota2" class="form-control" />
+                    <span asp-validation-for="Nota2" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Nota3" class="control-label"></label>
+                    <input asp-for="Nota3" class="form-control" />
+                    <span asp-validation-for="Nota3" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Calcular" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+

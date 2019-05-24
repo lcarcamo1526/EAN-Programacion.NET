@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Laika\\source\\repos\\TallerMVC5\\TallerMVC5\\TallerMVC5.csproj": {}
+    "C:\\Users\\Laika\\Documents\\EAN-Programacion.NET\\Taller Final 2\\TallerMVC5\\TallerMVC5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Laika\\source\\repos\\TallerMVC5\\TallerMVC5\\TallerMVC5.csproj": {
+    "C:\\Users\\Laika\\Documents\\EAN-Programacion.NET\\Taller Final 2\\TallerMVC5\\TallerMVC5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Laika\\source\\repos\\TallerMVC5\\TallerMVC5\\TallerMVC5.csproj",
+        "projectUniqueName": "C:\\Users\\Laika\\Documents\\EAN-Programacion.NET\\Taller Final 2\\TallerMVC5\\TallerMVC5.csproj",
         "projectName": "TallerMVC5",
-        "projectPath": "C:\\Users\\Laika\\source\\repos\\TallerMVC5\\TallerMVC5\\TallerMVC5.csproj",
+        "projectPath": "C:\\Users\\Laika\\Documents\\EAN-Programacion.NET\\Taller Final 2\\TallerMVC5\\TallerMVC5.csproj",
         "packagesPath": "C:\\Users\\Laika\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Laika\\source\\repos\\TallerMVC5\\TallerMVC5\\obj\\",
+        "outputPath": "C:\\Users\\Laika\\Documents\\EAN-Programacion.NET\\Taller Final 2\\TallerMVC5\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

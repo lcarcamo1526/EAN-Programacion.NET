@@ -64,6 +64,40 @@ namespace TallerMVC5.Controllers
         }
 
 
+
+        public IActionResult Calificaciones()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Calificaciones(Calificaciones califcacion)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+
+                    ViewData["Nombre_Estudiante"] = califcacion.Nombre_Estudiante;
+                    ViewData["Apellido_Estudiante"] = califcacion.Apellido_Estudiante;
+                    ViewData["Nota1"] = califcacion.Nota1;
+                    ViewData["Nota2"] = califcacion.Nota2;
+                    ViewData["Nota3"] = califcacion.Nota3;
+
+                    return View("Resultados");
+                }
+                return View("Resultados");
+            }
+            catch (Exception)
+            {
+                return View();
+
+            }
+        }
+
+
+
+
     }
 }
 
