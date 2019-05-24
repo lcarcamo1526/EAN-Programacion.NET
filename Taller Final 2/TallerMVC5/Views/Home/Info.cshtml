@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewData["Title"] = "Resultados";
+}
+
+<h1>Informacion</h1>
+<p>De acuerdo a los datos ingresados:</p>
+<strong>Nombre</strong> : @ViewData["Nombre"]<br />
+<strong>Apellido</strong> : @ViewData["Apellido"]<br />
+<strong>Numero de horas</strong> : @Math.Abs((int)ViewData["Numero_horas"])<br />
+<strong>Valor hora</strong> : @Math.Abs((int)ViewData["Valor_horas"])<br />
+<strong>Nivel de riesgo</strong> : @Math.Abs((int)@ViewData["Riesgo"])<br />
+
+@{
+    Usuario user = new Usuario();
+
+    user.Riesgo = (int)ViewData["Riesgo"];
+    user.Valor_horas = (int)ViewData["Valor_horas"];
+    user.Numero_horas = (int)ViewData["Numero_horas"];
+
+    var result = user.CalcularSalario();
+
+
+
+}
+
+<strong>Salario bruto</strong> : @result["bruto"]<br />
+<strong>Salud</strong> : @result["salud"]<br />
+<strong>Pension</strong> : @result["pension"]<br />
+<strong>Riesgos</strong> : @result["riesgo"]<br />
+<strong>Total descuentos :  @result["descuentos"] </strong> <br />
+<strong>Salario neto :   </strong> @result["diferencia"]<br />

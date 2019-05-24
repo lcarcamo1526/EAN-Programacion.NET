@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="58d4fe07-277e-4116-921c-da6638f9b6dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1/Coder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/Coder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/Decoder.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp2.2/ConsoleApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp2.2/ConsoleApp1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp2.2/ConsoleApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp2.2/ConsoleApp1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp2.2/ConsoleApp1.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp2.2/ConsoleApp1.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp2.2/ConsoleApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp2.2/ConsoleApp1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp2.2/ConsoleApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp2.2/ConsoleApp1.pdb" afterDir="false" />
     </list>
@@ -38,12 +39,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ConsoleApp1/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="150">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
               <folding>
-                <marker date="1557241745574" expanded="true" signature="37:415" ph="{...}" />
-                <marker date="1557241745574" expanded="true" signature="57:413" ph="{...}" />
-                <marker date="1557241745574" expanded="true" signature="99:398" ph="{...}" />
+                <marker date="1557254396914" expanded="true" signature="37:422" ph="{...}" />
+                <marker date="1557254396914" expanded="true" signature="57:420" ph="{...}" />
+                <marker date="1557254396914" expanded="true" signature="99:405" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -52,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ConsoleApp1/Coder.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1173">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="225">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <marker date="1557241824973" expanded="false" signature="6:92" ph="..." />
                 <marker date="1557241824973" expanded="true" signature="116:4479" ph="{...}" />
@@ -100,7 +101,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/ConsoleApp1/Decoder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConsoleApp1/Coder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConsoleApp1/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -108,8 +108,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ConsoleApp1/Decoder.cs" />
-        <option value="$PROJECT_DIR$/ConsoleApp1/Program.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp1/Coder.cs" />
+        <option value="$PROJECT_DIR$/ConsoleApp1/Program.cs" />
       </list>
     </option>
   </component>
@@ -132,25 +132,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ConsoleApp1" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ConsoleApp1" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ConsoleApp1" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="FileSystemExplorer" />
-      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -208,12 +194,13 @@
       <workItem from="1556752828805" duration="16190000" />
       <workItem from="1556817046513" duration="6051000" />
       <workItem from="1556826904832" duration="2345000" />
-      <workItem from="1557237186842" duration="4036000" />
+      <workItem from="1557237186842" duration="4097000" />
+      <workItem from="1557253709999" duration="1292000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34070000" />
+    <option name="totallyTimeSpent" value="35423000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -228,7 +215,7 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49842766" weight="0.18017058" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49842766" visible="true" weight="0.18176973" />
       <window_info id="Structure" order="1" sideWeight="0.5015723" side_tool="true" weight="0.18017058" />
       <window_info id="Favorites" order="2" sideWeight="0.5010548" side_tool="true" weight="0.18017058" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -294,21 +281,23 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ConsoleApp1/Decoder.cs">
+    <entry file="file://$PROJECT_DIR$/ConsoleApp1/Decoder.cs" />
+    <entry file="file://$PROJECT_DIR$/ConsoleApp1/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        <state relative-caret-position="150">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
           <folding>
-            <marker date="1556795520323" expanded="true" signature="22:67" ph="{...}" />
-            <marker date="1556795520323" expanded="true" signature="49:65" ph="{...}" />
+            <marker date="1557254396914" expanded="true" signature="37:422" ph="{...}" />
+            <marker date="1557254396914" expanded="true" signature="57:420" ph="{...}" />
+            <marker date="1557254396914" expanded="true" signature="99:405" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ConsoleApp1/Coder.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1173">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="225">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
             <marker date="1557241824973" expanded="false" signature="6:92" ph="..." />
             <marker date="1557241824973" expanded="true" signature="116:4479" ph="{...}" />
@@ -339,18 +328,6 @@
             <marker date="1557241824973" expanded="true" signature="3885:3955" ph="{...}" />
             <marker date="1557241824973" expanded="true" signature="4109:4297" ph="{...}" />
             <marker date="1557241824973" expanded="true" signature="4342:4471" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConsoleApp1/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <marker date="1557241745574" expanded="true" signature="37:415" ph="{...}" />
-            <marker date="1557241745574" expanded="true" signature="57:413" ph="{...}" />
-            <marker date="1557241745574" expanded="true" signature="99:398" ph="{...}" />
           </folding>
         </state>
       </provider>
